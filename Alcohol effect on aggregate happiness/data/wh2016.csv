@@ -1,0 +1,3566 @@
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://github.githubassets.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" integrity="sha512-Zp5Bi1AD1Kw9L9fsBlTqVd0cvO/hoTq1Zuk8hGbjzxC62qw7S7/rYbha2A6C7B5icFPUNRaqRxI+F+EEk29esQ==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-color-modes-669e418b5003d4ac3d2fd7ec0654ea55.css" />
+  <link crossorigin="anonymous" media="all" integrity="sha512-cGedWc42gByQQSWlC5eU9iaXtd8sS2pjACB9jLk25g0qwElflQblD+VZZHH68d5hWu8s66Sbnlj2A0OM/LKp4w==" rel="stylesheet" href="https://github.githubassets.com/assets/site-70679d59ce36801c904125a50b9794f6.css" />
+    <link crossorigin="anonymous" media="all" integrity="sha512-QOeuMOe9dEkJ4uEnqmyyLmOFyz0v2rjoKCrXXs7FhkJ98av5NjeLBYDE/nE9xhLocmTtdbtMyy1vwq5i2ARajw==" rel="stylesheet" href="https://github.githubassets.com/assets/github-40e7ae30e7bd744909e2e127aa6cb22e.css" />
+    
+    
+    
+    
+
+  <script crossorigin="anonymous" defer="defer" integrity="sha512-8K2vvwbW+6H27Nad5ydg8PA2/aMD/LKq+EiK9s0U0hhVZxCI2tWBsYk9beAtisRw2j+Or5k2/F+6dk02nmj/PA==" type="application/javascript" src="https://github.githubassets.com/assets/environment-f0adafbf.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-O/NSW+dygCw89FEFysgRjgS45N7cRdVr4XXg2CCslXi5QlxHG7ttTcUx8nSv1YyVkwKciu+vVCuBJCwQ+nmg2A==" type="application/javascript" src="https://github.githubassets.com/assets/chunk-frameworks-3bf3525b.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-fifeLCDzeD/nCXw8oPU2CKwv5FZBJPALvJsX89Kh5ENx/lxl+svFDWk0BjvIgtPZGuP6v76INtuILnrurUiNsw==" type="application/javascript" src="https://github.githubassets.com/assets/chunk-vendor-7e27de2c.js"></script>
+  
+  <script crossorigin="anonymous" defer="defer" integrity="sha512-DITDjEhAFr6RLEUI3z8WSB3EfLEQSrUVoiEEdkatXIadXdsmP9mAN1fxTcK+TRx8iWvgHyDfrI8KxzFd6HDvzQ==" type="application/javascript" src="https://github.githubassets.com/assets/behaviors-0c84c38c.js"></script>
+  
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-F/8sNCLF603gJL0egQeZwFTYP9dfZAVEWHdjMssZ2opLZXRK08vgowBRzKyra6u9zU/rGVxe+igfJsSWzfO2lg==" type="application/javascript" data-module-id="./chunk-contributions-spider-graph.js" data-src="https://github.githubassets.com/assets/chunk-contributions-spider-graph-17ff2c34.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-obMR8mPKx8OvqRe34LgnUcxeJ1qujiA4ND3H6UX13ExMlA/WfHLjEzXRmgGRcRvN/8J1nzc+Z+jgz/PLTFy6zg==" type="application/javascript" data-module-id="./chunk-drag-drop.js" data-src="https://github.githubassets.com/assets/chunk-drag-drop-a1b311f2.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-9zy4ibZe36ye7kOl+7GyJOLVxae8pRSGuTp92DSAI0GJ9ztkgDTGtvfXFHnZ7T3Qh1LRsn2iyn3mJ/Z5Pfo1Fg==" type="application/javascript" data-module-id="./chunk-jump-to.js" data-src="https://github.githubassets.com/assets/chunk-jump-to-f73cb889.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-biWH4OAQPiDiTkaeyDnXf6hHF3u3Mv3eaDEvt8AdT/QvWDpLbnusALT4ZO+f+DgYp07UiHxNRAB6/J7IwPW6TQ==" type="application/javascript" data-module-id="./chunk-lib.dev.js" data-src="https://github.githubassets.com/assets/chunk-lib.dev-6e2587e0.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-tcH4xCRuMBAh1PruDaiwGnRIbHlF6bGLhxyCQ16uqok1cV5QFMguVPWJtN9KI0jGQOgN+Pha3+uOUXhXdfK/qw==" type="application/javascript" data-module-id="./chunk-profile-pins-element.js" data-src="https://github.githubassets.com/assets/chunk-profile-pins-element-b5c1f8c4.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-gPx3bYhTjyC83X5u5KlEDJpwGAHt3AC2p5s9iMuAfPTeSj7kHlKMW231C3K3c7+jvlpWpELk8DJsefrYdRzqjA==" type="application/javascript" data-module-id="./chunk-randomColor.js" data-src="https://github.githubassets.com/assets/chunk-randomColor-80fc776d.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-E+H+wAtjiqutBvn2cnXzDIvmasIhYiS7i7JzOfFUwo+Ej8zT54OrJtP//RhwixnypgOpCF4JvqzYy6zOtORDmg==" type="application/javascript" data-module-id="./chunk-runner-groups.js" data-src="https://github.githubassets.com/assets/chunk-runner-groups-13e1fec0.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-qdiCkJPPR4LxwUKftEmJe2v79E8xnTceYqylsWkMsGuARkiKkX9iFNwkvZJ3bDfS5YHSPD3+k+N2/I73tvlL1Q==" type="application/javascript" data-module-id="./chunk-sortable-behavior.js" data-src="https://github.githubassets.com/assets/chunk-sortable-behavior-a9d88290.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-NpURjBPyJ0JT8hWOMbLErYNeb0bTkKfmFX1hl1F8C/q6jckqWObeOzEAcs6TRlj+cqAR6GDohEBxDgkYBlx+QQ==" type="application/javascript" data-module-id="./chunk-tweetsodium.js" data-src="https://github.githubassets.com/assets/chunk-tweetsodium-3695118c.js"></script>
+    <script crossorigin="anonymous" defer="defer" integrity="sha512-/rfwkj1EIni/cASHgs3Z0kyWBjPM3Ge8hYaps5SZwyhFhIP4/MXe5HQ9WYqBY2mwDAli8i1p5lPgfWWCfY7uCQ==" type="application/javascript" data-module-id="./chunk-user-status-submit.js" data-src="https://github.githubassets.com/assets/chunk-user-status-submit-feb7f092.js"></script>
+  
+  <script crossorigin="anonymous" defer="defer" integrity="sha512-izbihJx/N9RpfGKX14cTaN33od4II7qxqNmosHTKAphzh1BkhWJlACIdSbxnD2jmYOHSHcbP1Ul3SIqc0Pm24A==" type="application/javascript" src="https://github.githubassets.com/assets/repositories-8b36e284.js"></script>
+<script crossorigin="anonymous" defer="defer" integrity="sha512-ctdhO7lDg5ckrkIbEti+NdnbqcBSAoHsaOr9qgKOMWV1w98jP72ekKZNe/CEYLNkCWvLnLeCSdyRIlAWJA07YA==" type="application/javascript" src="https://github.githubassets.com/assets/diffs-72d7613b.js"></script>
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>Alcohol_and_Happiness/2016.csv at main · FractalySyn/Alcohol_and_Happiness · GitHub</title>
+    <meta name="description" content="Contribute to FractalySyn/Alcohol_and_Happiness development by creating an account on GitHub.">
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+  <meta name="apple-itunes-app" content="app-id=1477376905" />
+    <meta name="twitter:image:src" content="https://avatars2.githubusercontent.com/u/62756870?s=400&amp;v=4" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary" /><meta name="twitter:title" content="FractalySyn/Alcohol_and_Happiness" /><meta name="twitter:description" content="Contribute to FractalySyn/Alcohol_and_Happiness development by creating an account on GitHub." />
+    <meta property="og:image" content="https://avatars2.githubusercontent.com/u/62756870?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="FractalySyn/Alcohol_and_Happiness" /><meta property="og:url" content="https://github.com/FractalySyn/Alcohol_and_Happiness" /><meta property="og:description" content="Contribute to FractalySyn/Alcohol_and_Happiness development by creating an account on GitHub." />
+
+
+
+    
+
+  <link rel="assets" href="https://github.githubassets.com/">
+  
+
+  <meta name="request-id" content="86CA:11CEA:38C205:4D43D9:5FD3BEC6" data-pjax-transient="true"/><meta name="html-safe-nonce" content="4f9b72118fd2ddf343310eb0c5d7f64daf7d317812db1a29918949cbb010e9d3" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiI4NkNBOjExQ0VBOjM4QzIwNTo0RDQzRDk6NUZEM0JFQzYiLCJ2aXNpdG9yX2lkIjoiODU4NjM0OTczOTAyMTkzNjIwOSIsInJlZ2lvbl9lZGdlIjoiZnJhIiwicmVnaW9uX3JlbmRlciI6ImZyYSJ9" data-pjax-transient="true"/><meta name="visitor-hmac" content="f7f8b8eeb116f889bc346f5141f75cd96b4a110481ccfae7ce5254ab3077535b" data-pjax-transient="true"/><meta name="cookie-consent-required" content="true" data-pjax-transient="true"/>
+
+    <meta name="hovercard-subject-tag" content="repository:320656376" data-pjax-transient>
+
+
+  <meta name="github-keyboard-shortcuts" content="repository,source-code" data-pjax-transient="true" />
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="c1kuD-K2HIVF635lypcsWPoD4kilo5-jA_wBFyT4uMY">
+  <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+
+  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" />
+
+  <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
+
+  
+
+
+
+  <meta name="optimizely-datafile" content="{&quot;version&quot;: &quot;4&quot;, &quot;rollouts&quot;: [], &quot;typedAudiences&quot;: [], &quot;anonymizeIP&quot;: true, &quot;projectId&quot;: &quot;16737760170&quot;, &quot;variables&quot;: [], &quot;featureFlags&quot;: [], &quot;experiments&quot;: [], &quot;audiences&quot;: [{&quot;conditions&quot;: &quot;[\&quot;or\&quot;, {\&quot;match\&quot;: \&quot;exact\&quot;, \&quot;name\&quot;: \&quot;$opt_dummy_attribute\&quot;, \&quot;type\&quot;: \&quot;custom_attribute\&quot;, \&quot;value\&quot;: \&quot;$opt_dummy_value\&quot;}]&quot;, &quot;id&quot;: &quot;$opt_dummy_audience&quot;, &quot;name&quot;: &quot;Optimizely-Generated Audience for Backwards Compatibility&quot;}], &quot;groups&quot;: [], &quot;attributes&quot;: [{&quot;id&quot;: &quot;16822470375&quot;, &quot;key&quot;: &quot;user_id&quot;}, {&quot;id&quot;: &quot;17143601254&quot;, &quot;key&quot;: &quot;spammy&quot;}, {&quot;id&quot;: &quot;18175660309&quot;, &quot;key&quot;: &quot;organization_plan&quot;}, {&quot;id&quot;: &quot;18813001570&quot;, &quot;key&quot;: &quot;is_logged_in&quot;}, {&quot;id&quot;: &quot;19073851829&quot;, &quot;key&quot;: &quot;geo&quot;}], &quot;botFiltering&quot;: false, &quot;accountId&quot;: &quot;16737760170&quot;, &quot;events&quot;: [{&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;17911811441&quot;, &quot;key&quot;: &quot;hydro_click.dashboard.teacher_toolbox_cta&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18124116703&quot;, &quot;key&quot;: &quot;submit.organizations.complete_sign_up&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18145892387&quot;, &quot;key&quot;: &quot;no_metric.tracked_outside_of_optimizely&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18178755568&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.add_repo&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18180553241&quot;, &quot;key&quot;: &quot;submit.repository_imports.create&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18186103728&quot;, &quot;key&quot;: &quot;click.help.learn_more_about_repository_creation&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18188530140&quot;, &quot;key&quot;: &quot;test_event.do_not_use_in_production&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18191963644&quot;, &quot;key&quot;: &quot;click.empty_org_repo_cta.transfer_repository&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18195612788&quot;, &quot;key&quot;: &quot;click.empty_org_repo_cta.import_repository&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18210945499&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.invite_members&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18211063248&quot;, &quot;key&quot;: &quot;click.empty_org_repo_cta.create_repository&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18215721889&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.update_profile&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18224360785&quot;, &quot;key&quot;: &quot;click.org_onboarding_checklist.dismiss&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18234832286&quot;, &quot;key&quot;: &quot;submit.organization_activation.complete&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18252392383&quot;, &quot;key&quot;: &quot;submit.org_repository.create&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18257551537&quot;, &quot;key&quot;: &quot;submit.org_member_invitation.create&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18259522260&quot;, &quot;key&quot;: &quot;submit.organization_profile.update&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18564603625&quot;, &quot;key&quot;: &quot;view.classroom_select_organization&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18568612016&quot;, &quot;key&quot;: &quot;click.classroom_sign_in_click&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18572592540&quot;, &quot;key&quot;: &quot;view.classroom_name&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18574203855&quot;, &quot;key&quot;: &quot;click.classroom_create_organization&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18582053415&quot;, &quot;key&quot;: &quot;click.classroom_select_organization&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18589463420&quot;, &quot;key&quot;: &quot;click.classroom_create_classroom&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18591323364&quot;, &quot;key&quot;: &quot;click.classroom_create_first_classroom&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18591652321&quot;, &quot;key&quot;: &quot;click.classroom_grant_access&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18607131425&quot;, &quot;key&quot;: &quot;view.classroom_creation&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;18831680583&quot;, &quot;key&quot;: &quot;upgrade_account_plan&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19064064515&quot;, &quot;key&quot;: &quot;click.signup&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19075373687&quot;, &quot;key&quot;: &quot;click.view_account_billing_page&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19077355841&quot;, &quot;key&quot;: &quot;click.dismiss_signup_prompt&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19079713938&quot;, &quot;key&quot;: &quot;click.contact_sales&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19120963070&quot;, &quot;key&quot;: &quot;click.compare_account_plans&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19151690317&quot;, &quot;key&quot;: &quot;click.upgrade_account_cta&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19424193129&quot;, &quot;key&quot;: &quot;click.open_account_switcher&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19520330825&quot;, &quot;key&quot;: &quot;click.visit_account_profile&quot;}, {&quot;experimentIds&quot;: [], &quot;id&quot;: &quot;19540970635&quot;, &quot;key&quot;: &quot;click.switch_account_context&quot;}], &quot;revision&quot;: &quot;367&quot;}" />
+  <!-- To prevent page flashing, the optimizely JS needs to be loaded in the
+    <head> tag before the DOM renders -->
+  <script crossorigin="anonymous" defer="defer" integrity="sha512-VJrqSK702Mzl9EQxm2OvFxKaumGptgVdeJS2rsaLvVlOdR4HEu3ZFjtV83kMKdYRelUnxxaAFw0wthkpdEUafw==" type="application/javascript" src="https://github.githubassets.com/assets/optimizely-549aea48.js"></script>
+
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+
+      <meta name="expected-hostname" content="github.com">
+
+
+    <meta name="enabled-features" content="CORPORATE_SPONSORS_CREDIT_CARD,MARKETPLACE_PENDING_INSTALLATIONS">
+
+  <meta http-equiv="x-pjax-version" content="a6038d54becc25122f9a1da7fa145cb24f3c39d452cafcb49afdc5fd63549cda">
+  
+
+        <link href="https://github.com/FractalySyn/Alcohol_and_Happiness/commits/main.atom" rel="alternate" title="Recent Commits to Alcohol_and_Happiness:main" type="application/atom+xml">
+
+  <meta name="go-import" content="github.com/FractalySyn/Alcohol_and_Happiness git https://github.com/FractalySyn/Alcohol_and_Happiness.git">
+
+  <meta name="octolytics-dimension-user_id" content="62756870" /><meta name="octolytics-dimension-user_login" content="FractalySyn" /><meta name="octolytics-dimension-repository_id" content="320656376" /><meta name="octolytics-dimension-repository_nwo" content="FractalySyn/Alcohol_and_Happiness" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="320656376" /><meta name="octolytics-dimension-repository_network_root_nwo" content="FractalySyn/Alcohol_and_Happiness" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+
+    <link rel="canonical" href="https://github.com/FractalySyn/Alcohol_and_Happiness/blob/main/2016.csv" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <meta name="browser-optimizely-client-errors-url" content="https://api.github.com/_private/browser/optimizely_client/errors">
+
+  <link rel="mask-icon" href="https://github.githubassets.com/pinned-octocat.svg" color="#000000">
+  <link rel="alternate icon" class="js-site-favicon" type="image/png" href="https://github.githubassets.com/favicons/favicon.png">
+  <link rel="icon" class="js-site-favicon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon.svg">
+
+<meta name="theme-color" content="#1e2327">
+  <meta name="color-scheme" content="light dark">
+
+
+  <link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production page-responsive page-blob">
+    
+
+    <div class="position-relative js-header-wrapper ">
+      <a href="#start-of-content" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+      <span class="progress-pjax-loader width-full js-pjax-loader-bar Progress position-fixed">
+    <span style="background-color: #79b8ff;width: 0%;" class="Progress-item progress-pjax-loader-bar "></span>
+</span>      
+      
+
+
+            <header class="Header-old header-logged-out js-details-container Details position-relative f4 py-2" role="banner">
+  <div class="container-xl d-lg-flex flex-items-center p-responsive">
+    <div class="d-flex flex-justify-between flex-items-center">
+        <a class="mr-4" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+          <svg height="32" class="octicon octicon-mark-github text-white" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+        </a>
+
+          <div class="d-lg-none css-truncate css-truncate-target width-fit p-2">
+            
+
+          </div>
+
+        <div class="d-flex flex-items-center">
+              <a href="/join?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fblob%2Fshow&amp;source=header-repo"
+                class="d-inline-block d-lg-none f5 text-white no-underline border border-gray-dark rounded-2 px-2 py-1 mr-3 mr-sm-5"
+                data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/FractalySyn/Alcohol_and_Happiness/blob/main/2016.csv&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="2e152da94b68e3f791a9993ed8ee12c61af0d92dbb7e7343607bcf6d3069f704"
+                data-ga-click="Sign up, click to sign up for account, ref_page:/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show;ref_cta:Sign up;ref_loc:header logged out">
+                Sign&nbsp;up
+              </a>
+
+          <button class="btn-link d-lg-none mt-1 js-details-target" type="button" aria-label="Toggle navigation" aria-expanded="false">
+            <svg height="24" class="octicon octicon-three-bars text-white" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path></svg>
+          </button>
+        </div>
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--logged-out position-fixed top-0 right-0 bottom-0 height-fit position-lg-relative d-lg-flex flex-justify-between flex-items-center flex-auto">
+      <div class="d-flex d-lg-none flex-justify-end border-bottom bg-gray-light p-3">
+        <button class="btn-link js-details-target" type="button" aria-label="Toggle navigation" aria-expanded="false">
+          <svg height="24" class="octicon octicon-x text-gray" viewBox="0 0 24 24" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M5.72 5.72a.75.75 0 011.06 0L12 10.94l5.22-5.22a.75.75 0 111.06 1.06L13.06 12l5.22 5.22a.75.75 0 11-1.06 1.06L12 13.06l-5.22 5.22a.75.75 0 01-1.06-1.06L10.94 12 5.72 6.78a.75.75 0 010-1.06z"></path></svg>
+        </button>
+      </div>
+
+        <nav class="mt-0 px-3 px-lg-0 mb-5 mb-lg-0" aria-label="Global">
+          <ul class="d-lg-flex list-style-none">
+              <li class="d-block d-lg-flex flex-lg-nowrap flex-lg-items-center border-bottom border-lg-bottom-0 mr-0 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-block d-lg-inline-block">
+                    Why GitHub?
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-absolute position-lg-relative">
+                      <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 mt-0 pb-4 p-lg-4 position-relative position-lg-absolute left-0 left-lg-n4">
+                    <a href="/features" class="py-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Features">Features <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a>
+                    <ul class="list-style-none f5 pb-3">
+                      <li class="edge-item-fix"><a href="/features/code-review/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Code review">Code review</a></li>
+                      <li class="edge-item-fix"><a href="/features/project-management/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Project management">Project management</a></li>
+                      <li class="edge-item-fix"><a href="/features/integrations" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Integrations">Integrations</a></li>
+                      <li class="edge-item-fix"><a href="/features/actions" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Actions">Actions</a></li>
+                      <li class="edge-item-fix"><a href="/features/packages" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to GitHub Packages">Packages</a></li>
+                      <li class="edge-item-fix"><a href="/features/security" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Security">Security</a></li>
+                      <li class="edge-item-fix"><a href="/features#team-management" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Team management">Team management</a></li>
+                      <li class="edge-item-fix"><a href="/features#hosting" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Code hosting">Hosting</a></li>
+                      <li class="edge-item-fix hide-xl"><a href="/mobile" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Mobile">Mobile</a></li>
+                    </ul>
+
+                    <ul class="list-style-none mb-0 border-lg-top pt-lg-3">
+                      <li class="edge-item-fix"><a href="/customer-stories" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Customer stories">Customer stories <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                      <li class="edge-item-fix"><a href="/security" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Security">Security <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+              <li class="border-bottom border-lg-bottom-0 mr-0 mr-lg-3">
+                <a href="/team" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-ga-click="(Logged out) Header, go to Team">Team</a>
+              </li>
+              <li class="border-bottom border-lg-bottom-0 mr-0 mr-lg-3">
+                <a href="/enterprise" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-ga-click="(Logged out) Header, go to Enterprise">Enterprise</a>
+              </li>
+
+              <li class="d-block d-lg-flex flex-lg-nowrap flex-lg-items-center border-bottom border-lg-bottom-0 mr-0 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-block d-lg-inline-block">
+                    Explore
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-absolute position-lg-relative">
+                      <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+
+                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 pt-2 pb-0 mt-0 pb-4 p-lg-4 position-relative position-lg-absolute left-0 left-lg-n4">
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="/explore" class="py-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Explore">Explore GitHub <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                    </ul>
+
+                    <h4 class="text-gray-light text-normal text-mono f5 mb-2 border-lg-top pt-lg-3">Learn &amp; contribute</h4>
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="/topics" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Topics">Topics</a></li>
+                        <li class="edge-item-fix"><a href="/collections" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Collections">Collections</a></li>
+                      <li class="edge-item-fix"><a href="/trending" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Trending">Trending</a></li>
+                      <li class="edge-item-fix"><a href="https://lab.github.com/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Learning lab">Learning Lab</a></li>
+                      <li class="edge-item-fix"><a href="https://opensource.guide" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Open source guides">Open source guides</a></li>
+                    </ul>
+
+                    <h4 class="text-gray-light text-normal text-mono f5 mb-2 border-lg-top pt-lg-3">Connect with others</h4>
+                    <ul class="list-style-none mb-0">
+                      <li class="edge-item-fix"><a href="https://github.com/events" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Events">Events</a></li>
+                      <li class="edge-item-fix"><a href="https://github.community" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Community forum">Community forum</a></li>
+                      <li class="edge-item-fix"><a href="https://education.github.com" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to GitHub Education">GitHub Education</a></li>
+                      <li class="edge-item-fix"><a href="https://stars.github.com" class="py-2 pb-0 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to GitHub Stars Program">GitHub Stars program</a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+
+              <li class="border-bottom border-lg-bottom-0 mr-0 mr-lg-3">
+                <a href="/marketplace" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-ga-click="(Logged out) Header, go to Marketplace">Marketplace</a>
+              </li>
+
+              <li class="d-block d-lg-flex flex-lg-nowrap flex-lg-items-center border-bottom border-lg-bottom-0 mr-0 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-block d-lg-inline-block">
+                    Pricing
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-absolute position-lg-relative">
+                       <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+
+                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 pt-2 pb-4 mt-0 p-lg-4 position-relative position-lg-absolute left-0 left-lg-n4">
+                    <a href="/pricing" class="pb-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Pricing">Plans <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a>
+
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="/pricing#feature-comparison" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Compare plans">Compare plans</a></li>
+                      <li class="edge-item-fix"><a href="https://enterprise.github.com/contact" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Contact Sales">Contact Sales</a></li>
+                    </ul>
+
+                    <ul class="list-style-none mb-0 border-lg-top pt-lg-3">
+                      <li class="edge-item-fix"><a href="/nonprofit" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Nonprofits">Nonprofit <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                      <li class="edge-item-fix"><a href="https://education.github.com" class="py-2 pb-0 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover"  data-ga-click="(Logged out) Header, go to Education">Education <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+          </ul>
+        </nav>
+
+      <div class="d-lg-flex flex-items-center px-3 px-lg-0 text-center text-lg-left">
+          <div class="d-lg-flex mb-3 mb-lg-0">
+            <div class="header-search flex-auto js-site-search position-relative flex-self-stretch flex-md-self-auto mb-3 mb-md-0 mr-0 mr-md-3 scoped-search site-scoped-search js-jump-to"
+  role="combobox"
+  aria-owns="jump-to-results"
+  aria-label="Search or jump to"
+  aria-haspopup="listbox"
+  aria-expanded="false"
+>
+  <div class="position-relative">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" role="search" aria-label="Site" data-flagged-in="false" data-scope-type="Repository" data-scope-id="320656376" data-scoped-search-url="/FractalySyn/Alcohol_and_Happiness/search" data-owner-scoped-search-url="/users/FractalySyn/search" data-unscoped-search-url="/search" action="/FractalySyn/Alcohol_and_Happiness/search" accept-charset="UTF-8" method="get">
+      <label class="form-control input-sm header-search-wrapper p-0 js-chromeless-input-container header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center">
+        <input type="text"
+          class="form-control input-sm header-search-input jump-to-field js-jump-to-field js-site-search-focus js-site-search-field is-clearable"
+          data-hotkey="s,/"
+          name="q"
+          value=""
+          placeholder="Search"
+          data-unscoped-placeholder="Search GitHub"
+          data-scoped-placeholder="Search"
+          autocapitalize="off"
+          aria-autocomplete="list"
+          aria-controls="jump-to-results"
+          aria-label="Search"
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations"
+          spellcheck="false"
+          autocomplete="off"
+          >
+          <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="8/SQA1Rm3BkekyakkoOzSsRc7emb1xB0FoMsBeToz7U7QC2kpruvESqggFdeMzMnzm95lnMzQgL6USO1hA8RDg==" />
+          <input type="hidden" class="js-site-search-type-field" name="type" >
+            <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
+
+            <div class="Box position-absolute overflow-hidden d-none jump-to-suggestions js-jump-to-suggestions-container">
+              
+<ul class="d-none js-jump-to-suggestions-template-container">
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-suggestion" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="" data-item-type="suggestion">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M1.75 0A1.75 1.75 0 000 1.75v12.5C0 15.216.784 16 1.75 16h12.5A1.75 1.75 0 0016 14.25V1.75A1.75 1.75 0 0014.25 0H1.75zM1.5 1.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v12.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V1.75zM11.75 3a.75.75 0 00-.75.75v7.5a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75zm-8.25.75a.75.75 0 011.5 0v5.5a.75.75 0 01-1.5 0v-5.5zM8 3a.75.75 0 00-.75.75v3.5a.75.75 0 001.5 0v-3.5A.75.75 0 008 3z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M11.5 7a4.499 4.499 0 11-8.998 0A4.499 4.499 0 0111.5 7zm-.82 4.74a6 6 0 111.06-1.06l3.04 3.04a.75.75 0 11-1.06 1.06l-3.04-3.04z"></path></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+</ul>
+
+<ul class="d-none js-jump-to-no-results-template-container">
+  <li class="d-flex flex-justify-center flex-items-center f5 d-none js-jump-to-suggestion p-2">
+    <span class="text-gray">No suggested jump to results</span>
+  </li>
+</ul>
+
+<ul id="jump-to-results" role="listbox" class="p-0 m-0 js-navigation-container jump-to-suggestions-results-container js-jump-to-suggestions-results-container">
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-scoped-search d-none" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="" data-item-type="scoped_search">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M1.75 0A1.75 1.75 0 000 1.75v12.5C0 15.216.784 16 1.75 16h12.5A1.75 1.75 0 0016 14.25V1.75A1.75 1.75 0 0014.25 0H1.75zM1.5 1.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v12.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V1.75zM11.75 3a.75.75 0 00-.75.75v7.5a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75zm-8.25.75a.75.75 0 011.5 0v5.5a.75.75 0 01-1.5 0v-5.5zM8 3a.75.75 0 00-.75.75v3.5a.75.75 0 001.5 0v-3.5A.75.75 0 008 3z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M11.5 7a4.499 4.499 0 11-8.998 0A4.499 4.499 0 0111.5 7zm-.82 4.74a6 6 0 111.06-1.06l3.04 3.04a.75.75 0 11-1.06 1.06l-3.04-3.04z"></path></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-global-search d-none" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="" data-item-type="global_search">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M1.75 0A1.75 1.75 0 000 1.75v12.5C0 15.216.784 16 1.75 16h12.5A1.75 1.75 0 0016 14.25V1.75A1.75 1.75 0 0014.25 0H1.75zM1.5 1.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v12.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V1.75zM11.75 3a.75.75 0 00-.75.75v7.5a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75zm-8.25.75a.75.75 0 011.5 0v5.5a.75.75 0 01-1.5 0v-5.5zM8 3a.75.75 0 00-.75.75v3.5a.75.75 0 001.5 0v-3.5A.75.75 0 008 3z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M11.5 7a4.499 4.499 0 11-8.998 0A4.499 4.499 0 0111.5 7zm-.82 4.74a6 6 0 111.06-1.06l3.04 3.04a.75.75 0 11-1.06 1.06l-3.04-3.04z"></path></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+
+</ul>
+
+            </div>
+      </label>
+</form>  </div>
+</div>
+
+          </div>
+
+        <a href="/login?return_to=%2FFractalySyn%2FAlcohol_and_Happiness%2Fblob%2Fmain%2F2016.csv"
+          class="HeaderMenu-link no-underline mr-3"
+          data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/FractalySyn/Alcohol_and_Happiness/blob/main/2016.csv&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="ce09866869bbe80e8d9d5241df3740e6d7272fd9251c810a1d6fc4b46fab2c11"
+          data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">
+          Sign&nbsp;in
+        </a>
+            <a href="/join?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Fblob%2Fshow&amp;source=header-repo&amp;source_repo=FractalySyn%2FAlcohol_and_Happiness"
+              class="HeaderMenu-link d-inline-block no-underline border border-gray-dark rounded-1 px-2 py-1"
+              data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/FractalySyn/Alcohol_and_Happiness/blob/main/2016.csv&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="ce09866869bbe80e8d9d5241df3740e6d7272fd9251c810a1d6fc4b46fab2c11"
+              data-ga-click="Sign up, click to sign up for account, ref_page:/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show;ref_cta:Sign up;ref_loc:header logged out">
+              Sign&nbsp;up
+            </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+    </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+
+
+
+
+    <div data-pjax-replace id="js-flash-container">
+
+
+  <template class="js-flash-template">
+    <div class="flash flash-full  {{ className }}">
+  <div class=" px-2" >
+    <button class="flash-close js-flash-close" type="button" aria-label="Dismiss this message">
+      <svg class="octicon octicon-x" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg>
+    </button>
+    
+      <div>{{ message }}</div>
+
+  </div>
+</div>
+  </template>
+</div>
+
+
+    
+
+  <include-fragment class="js-notification-shelf-include-fragment" data-base-src="https://github.com/notifications/beta/shelf"></include-fragment>
+
+
+
+
+  <div
+    class="application-main "
+    data-commit-hovercards-enabled
+    data-discussion-hovercards-enabled
+    data-issue-and-pr-hovercards-enabled
+  >
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <main  >
+      
+
+    
+
+
+
+
+
+
+  
+
+
+  <div class="bg-gray-light pt-3 hide-full-screen mb-5">
+
+      <div class="d-flex mb-3 px-3 px-md-4 px-lg-5">
+
+        <div class="flex-auto min-width-0 width-fit mr-3">
+            <h1 class=" d-flex flex-wrap flex-items-center break-word f3 text-normal">
+    <svg class="octicon octicon-repo text-gray mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path></svg>
+    <span class="author flex-self-stretch" itemprop="author">
+      <a class="url fn" rel="author" data-hovercard-type="user" data-hovercard-url="/users/FractalySyn/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/FractalySyn">FractalySyn</a>
+    </span>
+    <span class="mx-1 flex-self-stretch color-text-secondary">/</span>
+  <strong itemprop="name" class="mr-2 flex-self-stretch">
+    <a data-pjax="#js-repo-pjax-container" class="" href="/FractalySyn/Alcohol_and_Happiness">Alcohol_and_Happiness</a>
+  </strong>
+  
+</h1>
+
+
+        </div>
+
+          <ul class="pagehead-actions flex-shrink-0 d-none d-md-inline" style="padding: 2px 0;">
+
+  <li>
+          <a class="tooltipped tooltipped-s btn btn-sm btn-with-count" aria-label="You must be signed in to watch a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;notification subscription menu watch&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/FractalySyn/Alcohol_and_Happiness/blob/main/2016.csv&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="e0581b99e6079582b220909beee3fbc7a96ce9e024579c5e1c17e7ae80cbc217" href="/login?return_to=%2FFractalySyn%2FAlcohol_and_Happiness">
+    <svg class="octicon octicon-eye" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.679 7.932c.412-.621 1.242-1.75 2.366-2.717C5.175 4.242 6.527 3.5 8 3.5c1.473 0 2.824.742 3.955 1.715 1.124.967 1.954 2.096 2.366 2.717a.119.119 0 010 .136c-.412.621-1.242 1.75-2.366 2.717C10.825 11.758 9.473 12.5 8 12.5c-1.473 0-2.824-.742-3.955-1.715C2.92 9.818 2.09 8.69 1.679 8.068a.119.119 0 010-.136zM8 2c-1.981 0-3.67.992-4.933 2.078C1.797 5.169.88 6.423.43 7.1a1.619 1.619 0 000 1.798c.45.678 1.367 1.932 2.637 3.024C4.329 13.008 6.019 14 8 14c1.981 0 3.67-.992 4.933-2.078 1.27-1.091 2.187-2.345 2.637-3.023a1.619 1.619 0 000-1.798c-.45-.678-1.367-1.932-2.637-3.023C11.671 2.992 9.981 2 8 2zm0 8a2 2 0 100-4 2 2 0 000 4z"></path></svg>
+    Watch
+</a>    <a class="social-count" href="/FractalySyn/Alcohol_and_Happiness/watchers"
+       aria-label="1 user is watching this repository">
+      1
+    </a>
+
+  </li>
+
+  <li>
+          <a class="btn btn-sm btn-with-count  tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:320656376,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/FractalySyn/Alcohol_and_Happiness/blob/main/2016.csv&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="424108a3c6525d34bf97008f56dd3c26bfedcb684646d60ba60dbcb5fdb3da1e" href="/login?return_to=%2FFractalySyn%2FAlcohol_and_Happiness">
+      <svg class="octicon octicon-star v-align-text-bottom" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>
+      Star
+</a>
+    <a class="social-count js-social-count" href="/FractalySyn/Alcohol_and_Happiness/stargazers"
+      aria-label="0 users starred this repository">
+      0
+    </a>
+
+  </li>
+
+  <li>
+        <a class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to fork a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;repo details fork button&quot;,&quot;repository_id&quot;:320656376,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/FractalySyn/Alcohol_and_Happiness/blob/main/2016.csv&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="fe477ca166de53bc49230d14251a64eb1817247b3f3f5076121a396f8d8ab5d0" href="/login?return_to=%2FFractalySyn%2FAlcohol_and_Happiness">
+          <svg class="octicon octicon-repo-forked" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path></svg>
+          Fork
+</a>
+      <a href="/FractalySyn/Alcohol_and_Happiness/network/members" class="social-count"
+         aria-label="0 users forked this repository">
+        0
+      </a>
+  </li>
+</ul>
+
+      </div>
+        
+<nav aria-label="Repository" data-pjax="#js-repo-pjax-container" class="js-repo-nav js-sidenav-container-pjax js-responsive-underlinenav overflow-hidden UnderlineNav px-3 px-md-4 px-lg-5 bg-gray-light">
+  <ul class="UnderlineNav-body list-style-none ">
+          <li class="d-flex">
+        <a class="js-selected-navigation-item selected UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item" data-tab-item="i0code-tab" data-hotkey="g c" data-ga-click="Repository, Navigation click, Code tab" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages repo_deployments /FractalySyn/Alcohol_and_Happiness" href="/FractalySyn/Alcohol_and_Happiness">
+              <svg class="octicon octicon-code UnderlineNav-octicon d-none d-sm-inline" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M4.72 3.22a.75.75 0 011.06 1.06L2.06 8l3.72 3.72a.75.75 0 11-1.06 1.06L.47 8.53a.75.75 0 010-1.06l4.25-4.25zm6.56 0a.75.75 0 10-1.06 1.06L13.94 8l-3.72 3.72a.75.75 0 101.06 1.06l4.25-4.25a.75.75 0 000-1.06l-4.25-4.25z"></path></svg>
+            <span data-content="Code">Code</span>
+              <span title="Not available" class="Counter "></span>
+</a>
+
+      </li>
+      <li class="d-flex">
+        <a class="js-selected-navigation-item UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item" data-tab-item="i1issues-tab" data-hotkey="g i" data-ga-click="Repository, Navigation click, Issues tab" data-selected-links="repo_issues repo_labels repo_milestones /FractalySyn/Alcohol_and_Happiness/issues" href="/FractalySyn/Alcohol_and_Happiness/issues">
+              <svg class="octicon octicon-issue-opened UnderlineNav-octicon d-none d-sm-inline" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"></path></svg>
+            <span data-content="Issues">Issues</span>
+              <span title="0" hidden="hidden" class="Counter ">0</span>
+</a>
+
+      </li>
+      <li class="d-flex">
+        <a class="js-selected-navigation-item UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item" data-tab-item="i2pull-requests-tab" data-hotkey="g p" data-ga-click="Repository, Navigation click, Pull requests tab" data-selected-links="repo_pulls checks /FractalySyn/Alcohol_and_Happiness/pulls" href="/FractalySyn/Alcohol_and_Happiness/pulls">
+              <svg class="octicon octicon-git-pull-request UnderlineNav-octicon d-none d-sm-inline" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"></path></svg>
+            <span data-content="Pull requests">Pull requests</span>
+              <span title="0" hidden="hidden" class="Counter ">0</span>
+</a>
+
+      </li>
+      <li class="d-flex">
+        <a class="js-selected-navigation-item UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item" data-tab-item="i3actions-tab" data-hotkey="g a" data-ga-click="Repository, Navigation click, Actions tab" data-selected-links="repo_actions /FractalySyn/Alcohol_and_Happiness/actions" href="/FractalySyn/Alcohol_and_Happiness/actions">
+              <svg class="octicon octicon-play UnderlineNav-octicon d-none d-sm-inline" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zM6.379 5.227A.25.25 0 006 5.442v5.117a.25.25 0 00.379.214l4.264-2.559a.25.25 0 000-.428L6.379 5.227z"></path></svg>
+            <span data-content="Actions">Actions</span>
+              <span title="Not available" class="Counter "></span>
+</a>
+
+      </li>
+      <li class="d-flex">
+        <a class="js-selected-navigation-item UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item" data-tab-item="i4projects-tab" data-hotkey="g b" data-ga-click="Repository, Navigation click, Projects tab" data-selected-links="repo_projects new_repo_project repo_project /FractalySyn/Alcohol_and_Happiness/projects" href="/FractalySyn/Alcohol_and_Happiness/projects">
+              <svg class="octicon octicon-project UnderlineNav-octicon d-none d-sm-inline" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.75 0A1.75 1.75 0 000 1.75v12.5C0 15.216.784 16 1.75 16h12.5A1.75 1.75 0 0016 14.25V1.75A1.75 1.75 0 0014.25 0H1.75zM1.5 1.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v12.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V1.75zM11.75 3a.75.75 0 00-.75.75v7.5a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75zm-8.25.75a.75.75 0 011.5 0v5.5a.75.75 0 01-1.5 0v-5.5zM8 3a.75.75 0 00-.75.75v3.5a.75.75 0 001.5 0v-3.5A.75.75 0 008 3z"></path></svg>
+            <span data-content="Projects">Projects</span>
+              <span title="0" hidden="hidden" class="Counter ">0</span>
+</a>
+
+      </li>
+      <li class="d-flex">
+        <a class="js-selected-navigation-item UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item" data-tab-item="i5security-tab" data-hotkey="g s" data-ga-click="Repository, Navigation click, Security tab" data-selected-links="security overview alerts policy token_scanning code_scanning /FractalySyn/Alcohol_and_Happiness/security" href="/FractalySyn/Alcohol_and_Happiness/security">
+              <svg class="octicon octicon-shield UnderlineNav-octicon d-none d-sm-inline" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.467.133a1.75 1.75 0 011.066 0l5.25 1.68A1.75 1.75 0 0115 3.48V7c0 1.566-.32 3.182-1.303 4.682-.983 1.498-2.585 2.813-5.032 3.855a1.7 1.7 0 01-1.33 0c-2.447-1.042-4.049-2.357-5.032-3.855C1.32 10.182 1 8.566 1 7V3.48a1.75 1.75 0 011.217-1.667l5.25-1.68zm.61 1.429a.25.25 0 00-.153 0l-5.25 1.68a.25.25 0 00-.174.238V7c0 1.358.275 2.666 1.057 3.86.784 1.194 2.121 2.34 4.366 3.297a.2.2 0 00.154 0c2.245-.956 3.582-2.104 4.366-3.298C13.225 9.666 13.5 8.36 13.5 7V3.48a.25.25 0 00-.174-.237l-5.25-1.68zM9 10.5a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.75a.75.75 0 10-1.5 0v3a.75.75 0 001.5 0v-3z"></path></svg>
+            <span data-content="Security">Security</span>
+              <include-fragment src="/FractalySyn/Alcohol_and_Happiness/security/overall-count" accept="text/fragment+html"></include-fragment>
+</a>
+
+      </li>
+      <li class="d-flex">
+        <a class="js-selected-navigation-item UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item" data-tab-item="i6insights-tab" data-ga-click="Repository, Navigation click, Insights tab" data-selected-links="repo_graphs repo_contributors dependency_graph dependabot_updates pulse people /FractalySyn/Alcohol_and_Happiness/pulse" href="/FractalySyn/Alcohol_and_Happiness/pulse">
+              <svg class="octicon octicon-graph UnderlineNav-octicon d-none d-sm-inline" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 1.75a.75.75 0 00-1.5 0v12.5c0 .414.336.75.75.75h14.5a.75.75 0 000-1.5H1.5V1.75zm14.28 2.53a.75.75 0 00-1.06-1.06L10 7.94 7.53 5.47a.75.75 0 00-1.06 0L3.22 8.72a.75.75 0 001.06 1.06L7 7.06l2.47 2.47a.75.75 0 001.06 0l5.25-5.25z"></path></svg>
+            <span data-content="Insights">Insights</span>
+              <span title="Not available" class="Counter "></span>
+</a>
+
+      </li>
+
+</ul>        <div class="position-absolute right-0 pr-3 pr-md-4 pr-lg-5 js-responsive-underlinenav-overflow" style="visibility:hidden;">
+      <details class="details-overlay details-reset position-relative">
+  <summary role="button">
+    <div class="UnderlineNav-item mr-0 border-0">
+            <svg class="octicon octicon-kebab-horizontal" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M8 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM1.5 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm13 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path></svg>
+            <span class="sr-only">More</span>
+          </div>
+</summary>  <div>
+    <details-menu role="menu" class="dropdown-menu dropdown-menu-sw ">
+  
+            <ul>
+                <li data-menu-item="i0code-tab" hidden>
+                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links=" /FractalySyn/Alcohol_and_Happiness" href="/FractalySyn/Alcohol_and_Happiness">
+                    Code
+</a>                </li>
+                <li data-menu-item="i1issues-tab" hidden>
+                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links=" /FractalySyn/Alcohol_and_Happiness/issues" href="/FractalySyn/Alcohol_and_Happiness/issues">
+                    Issues
+</a>                </li>
+                <li data-menu-item="i2pull-requests-tab" hidden>
+                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links=" /FractalySyn/Alcohol_and_Happiness/pulls" href="/FractalySyn/Alcohol_and_Happiness/pulls">
+                    Pull requests
+</a>                </li>
+                <li data-menu-item="i3actions-tab" hidden>
+                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links=" /FractalySyn/Alcohol_and_Happiness/actions" href="/FractalySyn/Alcohol_and_Happiness/actions">
+                    Actions
+</a>                </li>
+                <li data-menu-item="i4projects-tab" hidden>
+                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links=" /FractalySyn/Alcohol_and_Happiness/projects" href="/FractalySyn/Alcohol_and_Happiness/projects">
+                    Projects
+</a>                </li>
+                <li data-menu-item="i5security-tab" hidden>
+                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links=" /FractalySyn/Alcohol_and_Happiness/security" href="/FractalySyn/Alcohol_and_Happiness/security">
+                    Security
+</a>                </li>
+                <li data-menu-item="i6insights-tab" hidden>
+                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links=" /FractalySyn/Alcohol_and_Happiness/pulse" href="/FractalySyn/Alcohol_and_Happiness/pulse">
+                    Insights
+</a>                </li>
+            </ul>
+
+</details-menu>
+</div></details>    </div>
+
+</nav>
+  </div>
+
+
+<div class="container-xl clearfix new-discussion-timeline px-3 px-md-4 px-lg-5">
+  <div class="repository-content " >
+
+    
+      
+  
+
+
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/FractalySyn/Alcohol_and_Happiness/blob/d2d5b834bb66019f372616614dea04b8bed6aba6/2016.csv">Permalink</a>
+
+    <!-- blob contrib key: blob_contributors:v22:b423533d9ea9945276c8c84a9ae686cbf22afa726554c0be59934c32b11f3e90 -->
+      <signup-prompt class="signup-prompt-bg rounded-1" data-prompt="signup" data-optimizely-experiment="signup_prompt_launchpad" hidden>
+    <div class="signup-prompt p-4 text-center mb-4 rounded-1" data-optimizely-variation="control">
+      <div class="position-relative">
+        <button
+          type="button"
+          class="position-absolute top-0 right-0 btn-link link-gray"
+          data-action="click:signup-prompt#dismiss"
+          data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss"
+          data-optimizely-event="click.dismiss_signup_prompt, 55464033.1607712454"
+        >
+          Dismiss
+        </button>
+        <h3 class="pt-2">Join GitHub today</h3>
+        <p class="col-6 mx-auto">GitHub is home to over 50 million developers working together to host and review code, manage projects, and build software together.</p>
+        <a class="btn btn-primary" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up" data-optimizely-event="click.signup, 55464033.1607712454" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;files signup prompt&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/FractalySyn/Alcohol_and_Happiness/blob/main/2016.csv&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="d4b9b828ceb59acf0833d867be7ca83ea13c1fa44bf24f96aa354df6ed404d06" href="/join?source=prompt-blob-show&amp;source_repo=FractalySyn%2FAlcohol_and_Happiness">Sign up</a>
+      </div>
+    </div>
+
+    <div class="position-relative p-4 p-lg-5 mb-4" data-optimizely-variation="launchpad" hidden>
+      <div class="d-sm-flex">
+        <div class="col-sm-8 col-md-9 col-lg-8">
+          <h3 class="h2 lh-condensed mt-sm-1 mt-lg-0">GitHub is where the world builds software</h3>
+          <p class="f4 text-gray mt-2 mb-3">Millions of developers and companies build, ship, and maintain their software on GitHub &#8212; the largest and most advanced development platform in the world.</p>
+          <div class="d-flex flex-items-center pb-3">
+            <a class="btn btn-primary" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up" data-optimizely-event="click.signup, 55464033.1607712454" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;files signup prompt&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/FractalySyn/Alcohol_and_Happiness/blob/main/2016.csv&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="d4b9b828ceb59acf0833d867be7ca83ea13c1fa44bf24f96aa354df6ed404d06" href="/join?source=prompt-blob-show&amp;source_repo=FractalySyn%2FAlcohol_and_Happiness">Sign up for free</a>
+            <button
+              type="button"
+              class="btn-link link-gray ml-3"
+              data-action="click:signup-prompt#dismiss"
+              data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss"
+              data-optimizely-event="click.dismiss_signup_prompt, 55464033.1607712454"
+            >
+              Dismiss
+            </button>
+          </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" preserveAspectRatio="none" viewBox="0 0 1680 40" class="d-none d-sm-block position-absolute width-full" style="bottom: -1px;"><path d="M0 40h1680V30S1340 0 840 0 0 30 0 30z" fill="#fff"></path></svg>
+
+        <div class="d-none d-sm-block position-absolute col-5 col-md-4 col-lg-3 bottom-0 right-0 mr-lg-5 mb-md-n4">
+          <div class="width-full" >
+            <svg viewBox="0 0 300 305" class="width-fit">
+  <defs>
+    <mask id="https___github_githubassets_com_images_modules_site_home_astro-mona-alpha_jpg">
+      <image width="300" height="305" href="https://github.githubassets.com/images/modules/site/home/astro-mona-alpha.jpg"></image>
+    </mask>
+  </defs>
+  <image mask="url(#https___github_githubassets_com_images_modules_site_home_astro-mona-alpha_jpg)" width="300" height="305" href="https://github.githubassets.com/images/modules/site/home/astro-mona.jpg"></image>
+</svg>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </signup-prompt>
+
+
+    <div class="d-flex flex-items-start flex-shrink-0 pb-3 flex-wrap flex-md-nowrap flex-justify-between flex-md-justify-start">
+      
+<div class="position-relative">
+  <details class="details-reset details-overlay mr-0 mb-0 " id="branch-select-menu">
+    <summary class="btn css-truncate"
+            data-hotkey="w"
+            title="Switch branches or tags">
+      <svg class="octicon octicon-git-branch text-gray" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M11.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122V6A2.5 2.5 0 0110 8.5H6a1 1 0 00-1 1v1.128a2.251 2.251 0 11-1.5 0V5.372a2.25 2.25 0 111.5 0v1.836A2.492 2.492 0 016 7h4a1 1 0 001-1v-.628A2.25 2.25 0 019.5 3.25zM4.25 12a.75.75 0 100 1.5.75.75 0 000-1.5zM3.5 3.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0z"></path></svg>
+      <span class="css-truncate-target" data-menu-button>main</span>
+      <span class="dropdown-caret"></span>
+    </summary>
+
+    <details-menu class="SelectMenu SelectMenu--hasFilter" src="/FractalySyn/Alcohol_and_Happiness/refs/main/2016.csv?source_action=show&amp;source_controller=blob" preload>
+      <div class="SelectMenu-modal">
+        <include-fragment class="SelectMenu-loading" aria-label="Menu is loading">
+          <svg class="octicon octicon-octoface anim-pulse" height="32" viewBox="0 0 24 24" version="1.1" width="32" aria-hidden="true"><path d="M7.75 11c-.69 0-1.25.56-1.25 1.25v1.5a1.25 1.25 0 102.5 0v-1.5C9 11.56 8.44 11 7.75 11zm1.27 4.5a.469.469 0 01.48-.5h5a.47.47 0 01.48.5c-.116 1.316-.759 2.5-2.98 2.5s-2.864-1.184-2.98-2.5zm7.23-4.5c-.69 0-1.25.56-1.25 1.25v1.5a1.25 1.25 0 102.5 0v-1.5c0-.69-.56-1.25-1.25-1.25z"></path><path fill-rule="evenodd" d="M21.255 3.82a1.725 1.725 0 00-2.141-1.195c-.557.16-1.406.44-2.264.866-.78.386-1.647.93-2.293 1.677A18.442 18.442 0 0012 5c-.93 0-1.784.059-2.569.17-.645-.74-1.505-1.28-2.28-1.664a13.876 13.876 0 00-2.265-.866 1.725 1.725 0 00-2.141 1.196 23.645 23.645 0 00-.69 3.292c-.125.97-.191 2.07-.066 3.112C1.254 11.882 1 13.734 1 15.527 1 19.915 3.13 23 12 23c8.87 0 11-3.053 11-7.473 0-1.794-.255-3.647-.99-5.29.127-1.046.06-2.15-.066-3.125a23.652 23.652 0 00-.689-3.292zM20.5 14c.5 3.5-1.5 6.5-8.5 6.5s-9-3-8.5-6.5c.583-4 3-6 8.5-6s7.928 2 8.5 6z"></path></svg>
+        </include-fragment>
+      </div>
+    </details-menu>
+  </details>
+
+</div>
+
+      <h2 id="blob-path" class="breadcrumb flex-auto min-width-0 text-normal mx-0 mx-md-3 width-full width-md-auto flex-order-1 flex-md-order-none mt-3 mt-md-0">
+        <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/FractalySyn/Alcohol_and_Happiness"><span>Alcohol_and_Happiness</span></a></span></span><span class="separator">/</span><strong class="final-path">2016.csv</strong>
+      </h2>
+      <a href="/FractalySyn/Alcohol_and_Happiness/find/main"
+            class="js-pjax-capture-input btn mr-2 d-none d-md-block"
+            data-pjax
+            data-hotkey="t">
+        Go to file
+      </a>
+
+      <details id="blob-more-options-details" class="details-overlay details-reset position-relative">
+  <summary role="button" type="button" class="btn ">
+    <svg aria-label="More options" class="octicon octicon-kebab-horizontal" height="16" viewBox="0 0 16 16" version="1.1" width="16" role="img"><path d="M8 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM1.5 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm13 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path></svg>
+</summary>  <div>
+    <ul class="dropdown-menu dropdown-menu-sw">
+            <li class="d-block d-md-none">
+              <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:320656376,&quot;originating_url&quot;:&quot;https://github.com/FractalySyn/Alcohol_and_Happiness/blob/main/2016.csv&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="9f0fdd62719fc374acb9ce7888f4737c31902069509f9898ac77162fa0ba21aa" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/FractalySyn/Alcohol_and_Happiness/find/main">
+                <span class="flex-auto">Go to file</span>
+                <span class="text-small text-gray" aria-hidden="true">T</span>
+</a>            </li>
+            <li data-toggle-for="blob-more-options-details">
+              <button type="button" data-toggle-for="jumpto-line-details-dialog" class="btn-link dropdown-item">
+                <span class="d-flex flex-items-baseline">
+                  <span class="flex-auto">Go to line</span>
+                  <span class="text-small text-gray" aria-hidden="true">L</span>
+                </span>
+              </button>
+            </li>
+            <li class="dropdown-divider" role="none"></li>
+            <li>
+              <clipboard-copy value="2016.csv" class="dropdown-item cursor-pointer" data-toggle-for="blob-more-options-details">
+                Copy path
+              </clipboard-copy>
+            </li>
+          </ul>
+</div></details>    </div>
+
+
+
+    <div class="Box d-flex flex-column flex-shrink-0 mb-3">
+      <include-fragment src="/FractalySyn/Alcohol_and_Happiness/contributors/main/2016.csv" class="commit-loader">
+        <div class="Box-header Box-header--blue d-flex flex-items-center">
+          <div class="Skeleton avatar avatar-user flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1" style="width:24px;height:24px;"></div>
+          <div class="Skeleton Skeleton--text col-5 ml-2">&nbsp;</div>
+        </div>
+
+        <div class="Box-body d-flex flex-items-center" >
+          <div class="Skeleton Skeleton--text col-1">&nbsp;</div>
+          <span class="text-red h6 loader-error">Cannot retrieve contributors at this time</span>
+        </div>
+</include-fragment>    </div>
+
+
+
+
+
+
+    <div class="Box mt-3 position-relative
+      ">
+      
+<div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
+  <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
+
+      158 lines (158 sloc)
+      <span class="file-info-divider"></span>
+    16.7 KB
+  </div>
+
+  <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between">
+
+    <div class="BtnGroup">
+      <a href="/FractalySyn/Alcohol_and_Happiness/raw/main/2016.csv" id="raw-url" role="button" class="btn btn-sm BtnGroup-item ">Raw</a>
+        <a href="/FractalySyn/Alcohol_and_Happiness/blame/main/2016.csv" data-hotkey="b" role="button" class="btn js-update-url-with-hash btn-sm BtnGroup-item ">Blame</a>
+    </div>
+
+    <div>
+          <a class="btn-octicon tooltipped tooltipped-nw js-remove-unless-platform"
+             data-platforms="windows,mac"
+             href="https://desktop.github.com"
+             aria-label="Open this file in GitHub Desktop"
+             data-ga-click="Repository, open with desktop">
+              <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.75 2.5h12.5a.25.25 0 01.25.25v7.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25v-7.5a.25.25 0 01.25-.25zM14.25 1H1.75A1.75 1.75 0 000 2.75v7.5C0 11.216.784 12 1.75 12h3.727c-.1 1.041-.52 1.872-1.292 2.757A.75.75 0 004.75 16h6.5a.75.75 0 00.565-1.243c-.772-.885-1.193-1.716-1.292-2.757h3.727A1.75 1.75 0 0016 10.25v-7.5A1.75 1.75 0 0014.25 1zM9.018 12H6.982a5.72 5.72 0 01-.765 2.5h3.566a5.72 5.72 0 01-.765-2.5z"></path></svg>
+          </a>
+
+          <a href="/login?return_to=%2FFractalySyn%2FAlcohol_and_Happiness%2Fblob%2Fmain%2F2016.csv" class="btn-octicon disabled tooltipped tooltipped-nw"
+            aria-label="You must be signed in to make or propose changes">
+            <svg class="octicon octicon-pencil" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M11.013 1.427a1.75 1.75 0 012.474 0l1.086 1.086a1.75 1.75 0 010 2.474l-8.61 8.61c-.21.21-.47.364-.756.445l-3.251.93a.75.75 0 01-.927-.928l.929-3.25a1.75 1.75 0 01.445-.758l8.61-8.61zm1.414 1.06a.25.25 0 00-.354 0L10.811 3.75l1.439 1.44 1.263-1.263a.25.25 0 000-.354l-1.086-1.086zM11.189 6.25L9.75 4.81l-6.286 6.287a.25.25 0 00-.064.108l-.558 1.953 1.953-.558a.249.249 0 00.108-.064l6.286-6.286z"></path></svg>
+          </a>
+          <a href="/login?return_to=%2FFractalySyn%2FAlcohol_and_Happiness%2Fblob%2Fmain%2F2016.csv" class="btn-octicon btn-octicon-danger disabled tooltipped tooltipped-nw"
+            aria-label="You must be signed in to make or propose changes">
+            <svg class="octicon octicon-trashcan" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6.5 1.75a.25.25 0 01.25-.25h2.5a.25.25 0 01.25.25V3h-3V1.75zm4.5 0V3h2.25a.75.75 0 010 1.5H2.75a.75.75 0 010-1.5H5V1.75C5 .784 5.784 0 6.75 0h2.5C10.216 0 11 .784 11 1.75zM4.496 6.675a.75.75 0 10-1.492.15l.66 6.6A1.75 1.75 0 005.405 15h5.19c.9 0 1.652-.681 1.741-1.576l.66-6.6a.75.75 0 00-1.492-.149l-.66 6.6a.25.25 0 01-.249.225h-5.19a.25.25 0 01-.249-.225l-.66-6.6z"></path></svg>
+          </a>
+    </div>
+  </div>
+</div>
+
+      
+
+  <div itemprop="text" class="Box-body p-0 blob-wrapper data type-csv  gist-border-0">
+      <div class="blob-interaction-bar">
+  <svg class="octicon octicon-search" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11.5 7a4.499 4.499 0 11-8.998 0A4.499 4.499 0 0111.5 7zm-.82 4.74a6 6 0 111.06-1.06l3.04 3.04a.75.75 0 11-1.06 1.06l-3.04-3.04z"></path></svg>
+  <input type="text" name="filter" class="form-control js-csv-filter-field blob-filter" autocapitalize="off"
+         placeholder="Search this file…" aria-label="Search this file…">
+</div>
+
+  <div class="markdown-body">
+    <table class="js-csv-data csv-data js-file-line-container">
+      <thead>
+        <tr id="LC1" class="js-file-line">
+          <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
+            <th>Country</th>
+            <th>Region</th>
+            <th>Happiness Rank</th>
+            <th>Happiness Score</th>
+            <th>Lower Confidence Interval</th>
+            <th>Upper Confidence Interval</th>
+            <th>Economy (GDP per Capita)</th>
+            <th>Family</th>
+            <th>Health (Life Expectancy)</th>
+            <th>Freedom</th>
+            <th>Trust (Government Corruption)</th>
+            <th>Generosity</th>
+            <th>Dystopia Residual</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr id="LC2" class="js-file-line">
+            <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
+              <td>Denmark</td>
+              <td>Western Europe</td>
+              <td>1</td>
+              <td>7.526</td>
+              <td>7.46</td>
+              <td>7.592</td>
+              <td>1.44178</td>
+              <td>1.16374</td>
+              <td>0.79504</td>
+              <td>0.57941</td>
+              <td>0.44453</td>
+              <td>0.36171</td>
+              <td>2.73939</td>
+          </tr>
+          <tr id="LC3" class="js-file-line">
+            <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
+              <td>Switzerland</td>
+              <td>Western Europe</td>
+              <td>2</td>
+              <td>7.509</td>
+              <td>7.428</td>
+              <td>7.59</td>
+              <td>1.52733</td>
+              <td>1.14524</td>
+              <td>0.86303</td>
+              <td>0.58557</td>
+              <td>0.41203</td>
+              <td>0.28083</td>
+              <td>2.69463</td>
+          </tr>
+          <tr id="LC4" class="js-file-line">
+            <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
+              <td>Iceland</td>
+              <td>Western Europe</td>
+              <td>3</td>
+              <td>7.501</td>
+              <td>7.333</td>
+              <td>7.669</td>
+              <td>1.42666</td>
+              <td>1.18326</td>
+              <td>0.86733</td>
+              <td>0.56624</td>
+              <td>0.14975</td>
+              <td>0.47678</td>
+              <td>2.83137</td>
+          </tr>
+          <tr id="LC5" class="js-file-line">
+            <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
+              <td>Norway</td>
+              <td>Western Europe</td>
+              <td>4</td>
+              <td>7.498</td>
+              <td>7.421</td>
+              <td>7.575</td>
+              <td>1.57744</td>
+              <td>1.1269</td>
+              <td>0.79579</td>
+              <td>0.59609</td>
+              <td>0.35776</td>
+              <td>0.37895</td>
+              <td>2.66465</td>
+          </tr>
+          <tr id="LC6" class="js-file-line">
+            <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
+              <td>Finland</td>
+              <td>Western Europe</td>
+              <td>5</td>
+              <td>7.413</td>
+              <td>7.351</td>
+              <td>7.475</td>
+              <td>1.40598</td>
+              <td>1.13464</td>
+              <td>0.81091</td>
+              <td>0.57104</td>
+              <td>0.41004</td>
+              <td>0.25492</td>
+              <td>2.82596</td>
+          </tr>
+          <tr id="LC7" class="js-file-line">
+            <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
+              <td>Canada</td>
+              <td>North America</td>
+              <td>6</td>
+              <td>7.404</td>
+              <td>7.335</td>
+              <td>7.473</td>
+              <td>1.44015</td>
+              <td>1.0961</td>
+              <td>0.8276</td>
+              <td>0.5737</td>
+              <td>0.31329</td>
+              <td>0.44834</td>
+              <td>2.70485</td>
+          </tr>
+          <tr id="LC8" class="js-file-line">
+            <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
+              <td>Netherlands</td>
+              <td>Western Europe</td>
+              <td>7</td>
+              <td>7.339</td>
+              <td>7.284</td>
+              <td>7.394</td>
+              <td>1.46468</td>
+              <td>1.02912</td>
+              <td>0.81231</td>
+              <td>0.55211</td>
+              <td>0.29927</td>
+              <td>0.47416</td>
+              <td>2.70749</td>
+          </tr>
+          <tr id="LC9" class="js-file-line">
+            <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
+              <td>New Zealand</td>
+              <td>Australia and New Zealand</td>
+              <td>8</td>
+              <td>7.334</td>
+              <td>7.264</td>
+              <td>7.404</td>
+              <td>1.36066</td>
+              <td>1.17278</td>
+              <td>0.83096</td>
+              <td>0.58147</td>
+              <td>0.41904</td>
+              <td>0.49401</td>
+              <td>2.47553</td>
+          </tr>
+          <tr id="LC10" class="js-file-line">
+            <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
+              <td>Australia</td>
+              <td>Australia and New Zealand</td>
+              <td>9</td>
+              <td>7.313</td>
+              <td>7.241</td>
+              <td>7.385</td>
+              <td>1.44443</td>
+              <td>1.10476</td>
+              <td>0.8512</td>
+              <td>0.56837</td>
+              <td>0.32331</td>
+              <td>0.47407</td>
+              <td>2.5465</td>
+          </tr>
+          <tr id="LC11" class="js-file-line">
+            <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
+              <td>Sweden</td>
+              <td>Western Europe</td>
+              <td>10</td>
+              <td>7.291</td>
+              <td>7.227</td>
+              <td>7.355</td>
+              <td>1.45181</td>
+              <td>1.08764</td>
+              <td>0.83121</td>
+              <td>0.58218</td>
+              <td>0.40867</td>
+              <td>0.38254</td>
+              <td>2.54734</td>
+          </tr>
+          <tr id="LC12" class="js-file-line">
+            <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
+              <td>Israel</td>
+              <td>Middle East and Northern Africa</td>
+              <td>11</td>
+              <td>7.267</td>
+              <td>7.199</td>
+              <td>7.335</td>
+              <td>1.33766</td>
+              <td>0.99537</td>
+              <td>0.84917</td>
+              <td>0.36432</td>
+              <td>0.08728</td>
+              <td>0.32288</td>
+              <td>3.31029</td>
+          </tr>
+          <tr id="LC13" class="js-file-line">
+            <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
+              <td>Austria</td>
+              <td>Western Europe</td>
+              <td>12</td>
+              <td>7.119</td>
+              <td>7.045</td>
+              <td>7.193</td>
+              <td>1.45038</td>
+              <td>1.08383</td>
+              <td>0.80565</td>
+              <td>0.54355</td>
+              <td>0.21348</td>
+              <td>0.32865</td>
+              <td>2.69343</td>
+          </tr>
+          <tr id="LC14" class="js-file-line">
+            <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
+              <td>United States</td>
+              <td>North America</td>
+              <td>13</td>
+              <td>7.104</td>
+              <td>7.02</td>
+              <td>7.188</td>
+              <td>1.50796</td>
+              <td>1.04782</td>
+              <td>0.779</td>
+              <td>0.48163</td>
+              <td>0.14868</td>
+              <td>0.41077</td>
+              <td>2.72782</td>
+          </tr>
+          <tr id="LC15" class="js-file-line">
+            <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
+              <td>Costa Rica</td>
+              <td>Latin America and Caribbean</td>
+              <td>14</td>
+              <td>7.087</td>
+              <td>6.999</td>
+              <td>7.175</td>
+              <td>1.06879</td>
+              <td>1.02152</td>
+              <td>0.76146</td>
+              <td>0.55225</td>
+              <td>0.10547</td>
+              <td>0.22553</td>
+              <td>3.35168</td>
+          </tr>
+          <tr id="LC16" class="js-file-line">
+            <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
+              <td>Puerto Rico</td>
+              <td>Latin America and Caribbean</td>
+              <td>15</td>
+              <td>7.039</td>
+              <td>6.794</td>
+              <td>7.284</td>
+              <td>1.35943</td>
+              <td>1.08113</td>
+              <td>0.77758</td>
+              <td>0.46823</td>
+              <td>0.12275</td>
+              <td>0.22202</td>
+              <td>3.0076</td>
+          </tr>
+          <tr id="LC17" class="js-file-line">
+            <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
+              <td>Germany</td>
+              <td>Western Europe</td>
+              <td>16</td>
+              <td>6.994</td>
+              <td>6.93</td>
+              <td>7.058</td>
+              <td>1.44787</td>
+              <td>1.09774</td>
+              <td>0.81487</td>
+              <td>0.53466</td>
+              <td>0.28551</td>
+              <td>0.30452</td>
+              <td>2.50931</td>
+          </tr>
+          <tr id="LC18" class="js-file-line">
+            <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
+              <td>Brazil</td>
+              <td>Latin America and Caribbean</td>
+              <td>17</td>
+              <td>6.952</td>
+              <td>6.875</td>
+              <td>7.029</td>
+              <td>1.08754</td>
+              <td>1.03938</td>
+              <td>0.61415</td>
+              <td>0.40425</td>
+              <td>0.14166</td>
+              <td>0.15776</td>
+              <td>3.50733</td>
+          </tr>
+          <tr id="LC19" class="js-file-line">
+            <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
+              <td>Belgium</td>
+              <td>Western Europe</td>
+              <td>18</td>
+              <td>6.929</td>
+              <td>6.861</td>
+              <td>6.997</td>
+              <td>1.42539</td>
+              <td>1.05249</td>
+              <td>0.81959</td>
+              <td>0.51354</td>
+              <td>0.26248</td>
+              <td>0.2424</td>
+              <td>2.61355</td>
+          </tr>
+          <tr id="LC20" class="js-file-line">
+            <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
+              <td>Ireland</td>
+              <td>Western Europe</td>
+              <td>19</td>
+              <td>6.907</td>
+              <td>6.836</td>
+              <td>6.978</td>
+              <td>1.48341</td>
+              <td>1.16157</td>
+              <td>0.81455</td>
+              <td>0.54008</td>
+              <td>0.29754</td>
+              <td>0.44963</td>
+              <td>2.15988</td>
+          </tr>
+          <tr id="LC21" class="js-file-line">
+            <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
+              <td>Luxembourg</td>
+              <td>Western Europe</td>
+              <td>20</td>
+              <td>6.871</td>
+              <td>6.804</td>
+              <td>6.938</td>
+              <td>1.69752</td>
+              <td>1.03999</td>
+              <td>0.84542</td>
+              <td>0.5487</td>
+              <td>0.35329</td>
+              <td>0.27571</td>
+              <td>2.11055</td>
+          </tr>
+          <tr id="LC22" class="js-file-line">
+            <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
+              <td>Mexico</td>
+              <td>Latin America and Caribbean</td>
+              <td>21</td>
+              <td>6.778</td>
+              <td>6.68</td>
+              <td>6.876</td>
+              <td>1.11508</td>
+              <td>0.7146</td>
+              <td>0.71143</td>
+              <td>0.37709</td>
+              <td>0.18355</td>
+              <td>0.11735</td>
+              <td>3.55906</td>
+          </tr>
+          <tr id="LC23" class="js-file-line">
+            <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
+              <td>Singapore</td>
+              <td>Southeastern Asia</td>
+              <td>22</td>
+              <td>6.739</td>
+              <td>6.674</td>
+              <td>6.804</td>
+              <td>1.64555</td>
+              <td>0.86758</td>
+              <td>0.94719</td>
+              <td>0.4877</td>
+              <td>0.46987</td>
+              <td>0.32706</td>
+              <td>1.99375</td>
+          </tr>
+          <tr id="LC24" class="js-file-line">
+            <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
+              <td>United Kingdom</td>
+              <td>Western Europe</td>
+              <td>23</td>
+              <td>6.725</td>
+              <td>6.647</td>
+              <td>6.803</td>
+              <td>1.40283</td>
+              <td>1.08672</td>
+              <td>0.80991</td>
+              <td>0.50036</td>
+              <td>0.27399</td>
+              <td>0.50156</td>
+              <td>2.14999</td>
+          </tr>
+          <tr id="LC25" class="js-file-line">
+            <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
+              <td>Chile</td>
+              <td>Latin America and Caribbean</td>
+              <td>24</td>
+              <td>6.705</td>
+              <td>6.615</td>
+              <td>6.795</td>
+              <td>1.2167</td>
+              <td>0.90587</td>
+              <td>0.81883</td>
+              <td>0.37789</td>
+              <td>0.11451</td>
+              <td>0.31595</td>
+              <td>2.95505</td>
+          </tr>
+          <tr id="LC26" class="js-file-line">
+            <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
+              <td>Panama</td>
+              <td>Latin America and Caribbean</td>
+              <td>25</td>
+              <td>6.701</td>
+              <td>6.601</td>
+              <td>6.801</td>
+              <td>1.18306</td>
+              <td>0.98912</td>
+              <td>0.70835</td>
+              <td>0.48927</td>
+              <td>0.08423</td>
+              <td>0.2418</td>
+              <td>3.00559</td>
+          </tr>
+          <tr id="LC27" class="js-file-line">
+            <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
+              <td>Argentina</td>
+              <td>Latin America and Caribbean</td>
+              <td>26</td>
+              <td>6.65</td>
+              <td>6.56</td>
+              <td>6.74</td>
+              <td>1.15137</td>
+              <td>1.06612</td>
+              <td>0.69711</td>
+              <td>0.42284</td>
+              <td>0.07296</td>
+              <td>0.10989</td>
+              <td>3.12985</td>
+          </tr>
+          <tr id="LC28" class="js-file-line">
+            <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
+              <td>Czech Republic</td>
+              <td>Central and Eastern Europe</td>
+              <td>27</td>
+              <td>6.596</td>
+              <td>6.515</td>
+              <td>6.677</td>
+              <td>1.30915</td>
+              <td>1.00793</td>
+              <td>0.76376</td>
+              <td>0.41418</td>
+              <td>0.03986</td>
+              <td>0.09929</td>
+              <td>2.96211</td>
+          </tr>
+          <tr id="LC29" class="js-file-line">
+            <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
+              <td>United Arab Emirates</td>
+              <td>Middle East and Northern Africa</td>
+              <td>28</td>
+              <td>6.573</td>
+              <td>6.494</td>
+              <td>6.652</td>
+              <td>1.57352</td>
+              <td>0.87114</td>
+              <td>0.72993</td>
+              <td>0.56215</td>
+              <td>0.35561</td>
+              <td>0.26591</td>
+              <td>2.21507</td>
+          </tr>
+          <tr id="LC30" class="js-file-line">
+            <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
+              <td>Uruguay</td>
+              <td>Latin America and Caribbean</td>
+              <td>29</td>
+              <td>6.545</td>
+              <td>6.456</td>
+              <td>6.634</td>
+              <td>1.18157</td>
+              <td>1.03143</td>
+              <td>0.72183</td>
+              <td>0.54388</td>
+              <td>0.21394</td>
+              <td>0.18056</td>
+              <td>2.67139</td>
+          </tr>
+          <tr id="LC31" class="js-file-line">
+            <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
+              <td>Malta</td>
+              <td>Western Europe</td>
+              <td>30</td>
+              <td>6.488</td>
+              <td>6.409</td>
+              <td>6.567</td>
+              <td>1.30782</td>
+              <td>1.09879</td>
+              <td>0.80315</td>
+              <td>0.54994</td>
+              <td>0.17554</td>
+              <td>0.56237</td>
+              <td>1.99032</td>
+          </tr>
+          <tr id="LC32" class="js-file-line">
+            <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
+              <td>Colombia</td>
+              <td>Latin America and Caribbean</td>
+              <td>31</td>
+              <td>6.481</td>
+              <td>6.384</td>
+              <td>6.578</td>
+              <td>1.03032</td>
+              <td>1.02169</td>
+              <td>0.59659</td>
+              <td>0.44735</td>
+              <td>0.05399</td>
+              <td>0.15626</td>
+              <td>3.17471</td>
+          </tr>
+          <tr id="LC33" class="js-file-line">
+            <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
+              <td>France</td>
+              <td>Western Europe</td>
+              <td>32</td>
+              <td>6.478</td>
+              <td>6.397</td>
+              <td>6.559</td>
+              <td>1.39488</td>
+              <td>1.00508</td>
+              <td>0.83795</td>
+              <td>0.46562</td>
+              <td>0.17808</td>
+              <td>0.1216</td>
+              <td>2.4744</td>
+          </tr>
+          <tr id="LC34" class="js-file-line">
+            <td id="L34" class="blob-num js-line-number" data-line-number="34"></td>
+              <td>Thailand</td>
+              <td>Southeastern Asia</td>
+              <td>33</td>
+              <td>6.474</td>
+              <td>6.396</td>
+              <td>6.552</td>
+              <td>1.0893</td>
+              <td>1.04477</td>
+              <td>0.64915</td>
+              <td>0.49553</td>
+              <td>0.02833</td>
+              <td>0.58696</td>
+              <td>2.5796</td>
+          </tr>
+          <tr id="LC35" class="js-file-line">
+            <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
+              <td>Saudi Arabia</td>
+              <td>Middle East and Northern Africa</td>
+              <td>34</td>
+              <td>6.379</td>
+              <td>6.287</td>
+              <td>6.471</td>
+              <td>1.48953</td>
+              <td>0.84829</td>
+              <td>0.59267</td>
+              <td>0.37904</td>
+              <td>0.30008</td>
+              <td>0.15457</td>
+              <td>2.61482</td>
+          </tr>
+          <tr id="LC36" class="js-file-line">
+            <td id="L36" class="blob-num js-line-number" data-line-number="36"></td>
+              <td>Taiwan</td>
+              <td>Eastern Asia</td>
+              <td>34</td>
+              <td>6.379</td>
+              <td>6.305</td>
+              <td>6.453</td>
+              <td>1.39729</td>
+              <td>0.92624</td>
+              <td>0.79565</td>
+              <td>0.32377</td>
+              <td>0.0663</td>
+              <td>0.25495</td>
+              <td>2.61523</td>
+          </tr>
+          <tr id="LC37" class="js-file-line">
+            <td id="L37" class="blob-num js-line-number" data-line-number="37"></td>
+              <td>Qatar</td>
+              <td>Middle East and Northern Africa</td>
+              <td>36</td>
+              <td>6.375</td>
+              <td>6.178</td>
+              <td>6.572</td>
+              <td>1.82427</td>
+              <td>0.87964</td>
+              <td>0.71723</td>
+              <td>0.56679</td>
+              <td>0.48049</td>
+              <td>0.32388</td>
+              <td>1.58224</td>
+          </tr>
+          <tr id="LC38" class="js-file-line">
+            <td id="L38" class="blob-num js-line-number" data-line-number="38"></td>
+              <td>Spain</td>
+              <td>Western Europe</td>
+              <td>37</td>
+              <td>6.361</td>
+              <td>6.288</td>
+              <td>6.434</td>
+              <td>1.34253</td>
+              <td>1.12945</td>
+              <td>0.87896</td>
+              <td>0.37545</td>
+              <td>0.06137</td>
+              <td>0.17665</td>
+              <td>2.39663</td>
+          </tr>
+          <tr id="LC39" class="js-file-line">
+            <td id="L39" class="blob-num js-line-number" data-line-number="39"></td>
+              <td>Algeria</td>
+              <td>Middle East and Northern Africa</td>
+              <td>38</td>
+              <td>6.355</td>
+              <td>6.227</td>
+              <td>6.483</td>
+              <td>1.05266</td>
+              <td>0.83309</td>
+              <td>0.61804</td>
+              <td>0.21006</td>
+              <td>0.16157</td>
+              <td>0.07044</td>
+              <td>3.40904</td>
+          </tr>
+          <tr id="LC40" class="js-file-line">
+            <td id="L40" class="blob-num js-line-number" data-line-number="40"></td>
+              <td>Guatemala</td>
+              <td>Latin America and Caribbean</td>
+              <td>39</td>
+              <td>6.324</td>
+              <td>6.213</td>
+              <td>6.435</td>
+              <td>0.83454</td>
+              <td>0.87119</td>
+              <td>0.54039</td>
+              <td>0.50379</td>
+              <td>0.08701</td>
+              <td>0.28808</td>
+              <td>3.19863</td>
+          </tr>
+          <tr id="LC41" class="js-file-line">
+            <td id="L41" class="blob-num js-line-number" data-line-number="41"></td>
+              <td>Suriname</td>
+              <td>Latin America and Caribbean</td>
+              <td>40</td>
+              <td>6.269</td>
+              <td>6.073</td>
+              <td>6.465</td>
+              <td>1.09686</td>
+              <td>0.77866</td>
+              <td>0.50933</td>
+              <td>0.52234</td>
+              <td>0.12692</td>
+              <td>0.16665</td>
+              <td>3.06852</td>
+          </tr>
+          <tr id="LC42" class="js-file-line">
+            <td id="L42" class="blob-num js-line-number" data-line-number="42"></td>
+              <td>Kuwait</td>
+              <td>Middle East and Northern Africa</td>
+              <td>41</td>
+              <td>6.239</td>
+              <td>6.154</td>
+              <td>6.324</td>
+              <td>1.61714</td>
+              <td>0.87758</td>
+              <td>0.63569</td>
+              <td>0.43166</td>
+              <td>0.23669</td>
+              <td>0.15965</td>
+              <td>2.28085</td>
+          </tr>
+          <tr id="LC43" class="js-file-line">
+            <td id="L43" class="blob-num js-line-number" data-line-number="43"></td>
+              <td>Bahrain</td>
+              <td>Middle East and Northern Africa</td>
+              <td>42</td>
+              <td>6.218</td>
+              <td>6.128</td>
+              <td>6.308</td>
+              <td>1.44024</td>
+              <td>0.94397</td>
+              <td>0.65696</td>
+              <td>0.47375</td>
+              <td>0.25772</td>
+              <td>0.17147</td>
+              <td>2.27405</td>
+          </tr>
+          <tr id="LC44" class="js-file-line">
+            <td id="L44" class="blob-num js-line-number" data-line-number="44"></td>
+              <td>Trinidad and Tobago</td>
+              <td>Latin America and Caribbean</td>
+              <td>43</td>
+              <td>6.168</td>
+              <td>5.95</td>
+              <td>6.386</td>
+              <td>1.32572</td>
+              <td>0.98569</td>
+              <td>0.52608</td>
+              <td>0.48453</td>
+              <td>0.01241</td>
+              <td>0.31935</td>
+              <td>2.51394</td>
+          </tr>
+          <tr id="LC45" class="js-file-line">
+            <td id="L45" class="blob-num js-line-number" data-line-number="45"></td>
+              <td>Venezuela</td>
+              <td>Latin America and Caribbean</td>
+              <td>44</td>
+              <td>6.084</td>
+              <td>5.973</td>
+              <td>6.195</td>
+              <td>1.13367</td>
+              <td>1.03302</td>
+              <td>0.61904</td>
+              <td>0.19847</td>
+              <td>0.08304</td>
+              <td>0.0425</td>
+              <td>2.97468</td>
+          </tr>
+          <tr id="LC46" class="js-file-line">
+            <td id="L46" class="blob-num js-line-number" data-line-number="46"></td>
+              <td>Slovakia</td>
+              <td>Central and Eastern Europe</td>
+              <td>45</td>
+              <td>6.078</td>
+              <td>5.996</td>
+              <td>6.16</td>
+              <td>1.27973</td>
+              <td>1.08268</td>
+              <td>0.70367</td>
+              <td>0.23391</td>
+              <td>0.02947</td>
+              <td>0.13837</td>
+              <td>2.61065</td>
+          </tr>
+          <tr id="LC47" class="js-file-line">
+            <td id="L47" class="blob-num js-line-number" data-line-number="47"></td>
+              <td>El Salvador</td>
+              <td>Latin America and Caribbean</td>
+              <td>46</td>
+              <td>6.068</td>
+              <td>5.967</td>
+              <td>6.169</td>
+              <td>0.8737</td>
+              <td>0.80975</td>
+              <td>0.596</td>
+              <td>0.37269</td>
+              <td>0.10613</td>
+              <td>0.08877</td>
+              <td>3.22134</td>
+          </tr>
+          <tr id="LC48" class="js-file-line">
+            <td id="L48" class="blob-num js-line-number" data-line-number="48"></td>
+              <td>Malaysia</td>
+              <td>Southeastern Asia</td>
+              <td>47</td>
+              <td>6.005</td>
+              <td>5.921</td>
+              <td>6.089</td>
+              <td>1.25142</td>
+              <td>0.88025</td>
+              <td>0.62366</td>
+              <td>0.39031</td>
+              <td>0.09081</td>
+              <td>0.41474</td>
+              <td>2.35384</td>
+          </tr>
+          <tr id="LC49" class="js-file-line">
+            <td id="L49" class="blob-num js-line-number" data-line-number="49"></td>
+              <td>Nicaragua</td>
+              <td>Latin America and Caribbean</td>
+              <td>48</td>
+              <td>5.992</td>
+              <td>5.877</td>
+              <td>6.107</td>
+              <td>0.69384</td>
+              <td>0.89521</td>
+              <td>0.65213</td>
+              <td>0.46582</td>
+              <td>0.16292</td>
+              <td>0.29773</td>
+              <td>2.82428</td>
+          </tr>
+          <tr id="LC50" class="js-file-line">
+            <td id="L50" class="blob-num js-line-number" data-line-number="50"></td>
+              <td>Uzbekistan</td>
+              <td>Central and Eastern Europe</td>
+              <td>49</td>
+              <td>5.987</td>
+              <td>5.896</td>
+              <td>6.078</td>
+              <td>0.73591</td>
+              <td>1.1681</td>
+              <td>0.50163</td>
+              <td>0.60848</td>
+              <td>0.28333</td>
+              <td>0.34326</td>
+              <td>2.34638</td>
+          </tr>
+          <tr id="LC51" class="js-file-line">
+            <td id="L51" class="blob-num js-line-number" data-line-number="51"></td>
+              <td>Italy</td>
+              <td>Western Europe</td>
+              <td>50</td>
+              <td>5.977</td>
+              <td>5.898</td>
+              <td>6.056</td>
+              <td>1.35495</td>
+              <td>1.04167</td>
+              <td>0.85102</td>
+              <td>0.18827</td>
+              <td>0.02556</td>
+              <td>0.16684</td>
+              <td>2.34918</td>
+          </tr>
+          <tr id="LC52" class="js-file-line">
+            <td id="L52" class="blob-num js-line-number" data-line-number="52"></td>
+              <td>Ecuador</td>
+              <td>Latin America and Caribbean</td>
+              <td>51</td>
+              <td>5.976</td>
+              <td>5.88</td>
+              <td>6.072</td>
+              <td>0.97306</td>
+              <td>0.85974</td>
+              <td>0.68613</td>
+              <td>0.4027</td>
+              <td>0.18037</td>
+              <td>0.10074</td>
+              <td>2.77366</td>
+          </tr>
+          <tr id="LC53" class="js-file-line">
+            <td id="L53" class="blob-num js-line-number" data-line-number="53"></td>
+              <td>Belize</td>
+              <td>Latin America and Caribbean</td>
+              <td>52</td>
+              <td>5.956</td>
+              <td>5.71</td>
+              <td>6.202</td>
+              <td>0.87616</td>
+              <td>0.68655</td>
+              <td>0.45569</td>
+              <td>0.51231</td>
+              <td>0.10771</td>
+              <td>0.23684</td>
+              <td>3.08039</td>
+          </tr>
+          <tr id="LC54" class="js-file-line">
+            <td id="L54" class="blob-num js-line-number" data-line-number="54"></td>
+              <td>Japan</td>
+              <td>Eastern Asia</td>
+              <td>53</td>
+              <td>5.921</td>
+              <td>5.85</td>
+              <td>5.992</td>
+              <td>1.38007</td>
+              <td>1.06054</td>
+              <td>0.91491</td>
+              <td>0.46761</td>
+              <td>0.18985</td>
+              <td>0.10224</td>
+              <td>1.80584</td>
+          </tr>
+          <tr id="LC55" class="js-file-line">
+            <td id="L55" class="blob-num js-line-number" data-line-number="55"></td>
+              <td>Kazakhstan</td>
+              <td>Central and Eastern Europe</td>
+              <td>54</td>
+              <td>5.919</td>
+              <td>5.837</td>
+              <td>6.001</td>
+              <td>1.22943</td>
+              <td>0.95544</td>
+              <td>0.57386</td>
+              <td>0.4052</td>
+              <td>0.11132</td>
+              <td>0.15011</td>
+              <td>2.49325</td>
+          </tr>
+          <tr id="LC56" class="js-file-line">
+            <td id="L56" class="blob-num js-line-number" data-line-number="56"></td>
+              <td>Moldova</td>
+              <td>Central and Eastern Europe</td>
+              <td>55</td>
+              <td>5.897</td>
+              <td>5.823</td>
+              <td>5.971</td>
+              <td>0.69177</td>
+              <td>0.83132</td>
+              <td>0.52309</td>
+              <td>0.25202</td>
+              <td>0.01903</td>
+              <td>0.19997</td>
+              <td>3.38007</td>
+          </tr>
+          <tr id="LC57" class="js-file-line">
+            <td id="L57" class="blob-num js-line-number" data-line-number="57"></td>
+              <td>Russia</td>
+              <td>Central and Eastern Europe</td>
+              <td>56</td>
+              <td>5.856</td>
+              <td>5.789</td>
+              <td>5.923</td>
+              <td>1.23228</td>
+              <td>1.05261</td>
+              <td>0.58991</td>
+              <td>0.32682</td>
+              <td>0.03586</td>
+              <td>0.02736</td>
+              <td>2.59115</td>
+          </tr>
+          <tr id="LC58" class="js-file-line">
+            <td id="L58" class="blob-num js-line-number" data-line-number="58"></td>
+              <td>Poland</td>
+              <td>Central and Eastern Europe</td>
+              <td>57</td>
+              <td>5.835</td>
+              <td>5.749</td>
+              <td>5.921</td>
+              <td>1.24585</td>
+              <td>1.04685</td>
+              <td>0.69058</td>
+              <td>0.4519</td>
+              <td>0.055</td>
+              <td>0.14443</td>
+              <td>2.20035</td>
+          </tr>
+          <tr id="LC59" class="js-file-line">
+            <td id="L59" class="blob-num js-line-number" data-line-number="59"></td>
+              <td>South Korea</td>
+              <td>Eastern Asia</td>
+              <td>57</td>
+              <td>5.835</td>
+              <td>5.747</td>
+              <td>5.923</td>
+              <td>1.35948</td>
+              <td>0.72194</td>
+              <td>0.88645</td>
+              <td>0.25168</td>
+              <td>0.07716</td>
+              <td>0.18824</td>
+              <td>2.35015</td>
+          </tr>
+          <tr id="LC60" class="js-file-line">
+            <td id="L60" class="blob-num js-line-number" data-line-number="60"></td>
+              <td>Bolivia</td>
+              <td>Latin America and Caribbean</td>
+              <td>59</td>
+              <td>5.822</td>
+              <td>5.74</td>
+              <td>5.904</td>
+              <td>0.79422</td>
+              <td>0.83779</td>
+              <td>0.4697</td>
+              <td>0.50961</td>
+              <td>0.07746</td>
+              <td>0.21698</td>
+              <td>2.91635</td>
+          </tr>
+          <tr id="LC61" class="js-file-line">
+            <td id="L61" class="blob-num js-line-number" data-line-number="61"></td>
+              <td>Lithuania</td>
+              <td>Central and Eastern Europe</td>
+              <td>60</td>
+              <td>5.813</td>
+              <td>5.734</td>
+              <td>5.892</td>
+              <td>1.2692</td>
+              <td>1.06411</td>
+              <td>0.64674</td>
+              <td>0.18929</td>
+              <td>0.0182</td>
+              <td>0.02025</td>
+              <td>2.60525</td>
+          </tr>
+          <tr id="LC62" class="js-file-line">
+            <td id="L62" class="blob-num js-line-number" data-line-number="62"></td>
+              <td>Belarus</td>
+              <td>Central and Eastern Europe</td>
+              <td>61</td>
+              <td>5.802</td>
+              <td>5.723</td>
+              <td>5.881</td>
+              <td>1.13062</td>
+              <td>1.04993</td>
+              <td>0.63104</td>
+              <td>0.29091</td>
+              <td>0.17457</td>
+              <td>0.13942</td>
+              <td>2.38582</td>
+          </tr>
+          <tr id="LC63" class="js-file-line">
+            <td id="L63" class="blob-num js-line-number" data-line-number="63"></td>
+              <td>North Cyprus</td>
+              <td>Western Europe</td>
+              <td>62</td>
+              <td>5.771</td>
+              <td>5.67</td>
+              <td>5.872</td>
+              <td>1.31141</td>
+              <td>0.81826</td>
+              <td>0.84142</td>
+              <td>0.43596</td>
+              <td>0.16578</td>
+              <td>0.26322</td>
+              <td>1.93447</td>
+          </tr>
+          <tr id="LC64" class="js-file-line">
+            <td id="L64" class="blob-num js-line-number" data-line-number="64"></td>
+              <td>Slovenia</td>
+              <td>Central and Eastern Europe</td>
+              <td>63</td>
+              <td>5.768</td>
+              <td>5.683</td>
+              <td>5.853</td>
+              <td>1.29947</td>
+              <td>1.05613</td>
+              <td>0.79151</td>
+              <td>0.53164</td>
+              <td>0.03635</td>
+              <td>0.25738</td>
+              <td>1.79522</td>
+          </tr>
+          <tr id="LC65" class="js-file-line">
+            <td id="L65" class="blob-num js-line-number" data-line-number="65"></td>
+              <td>Peru</td>
+              <td>Latin America and Caribbean</td>
+              <td>64</td>
+              <td>5.743</td>
+              <td>5.647</td>
+              <td>5.839</td>
+              <td>0.99602</td>
+              <td>0.81255</td>
+              <td>0.62994</td>
+              <td>0.37502</td>
+              <td>0.05292</td>
+              <td>0.14527</td>
+              <td>2.73117</td>
+          </tr>
+          <tr id="LC66" class="js-file-line">
+            <td id="L66" class="blob-num js-line-number" data-line-number="66"></td>
+              <td>Turkmenistan</td>
+              <td>Central and Eastern Europe</td>
+              <td>65</td>
+              <td>5.658</td>
+              <td>5.58</td>
+              <td>5.736</td>
+              <td>1.08017</td>
+              <td>1.03817</td>
+              <td>0.44006</td>
+              <td>0.37408</td>
+              <td>0.28467</td>
+              <td>0.22567</td>
+              <td>2.21489</td>
+          </tr>
+          <tr id="LC67" class="js-file-line">
+            <td id="L67" class="blob-num js-line-number" data-line-number="67"></td>
+              <td>Mauritius</td>
+              <td>Sub-Saharan Africa</td>
+              <td>66</td>
+              <td>5.648</td>
+              <td>5.507</td>
+              <td>5.789</td>
+              <td>1.14372</td>
+              <td>0.75695</td>
+              <td>0.66189</td>
+              <td>0.46145</td>
+              <td>0.05203</td>
+              <td>0.36951</td>
+              <td>2.20223</td>
+          </tr>
+          <tr id="LC68" class="js-file-line">
+            <td id="L68" class="blob-num js-line-number" data-line-number="68"></td>
+              <td>Libya</td>
+              <td>Middle East and Northern Africa</td>
+              <td>67</td>
+              <td>5.615</td>
+              <td>5.406</td>
+              <td>5.824</td>
+              <td>1.06688</td>
+              <td>0.95076</td>
+              <td>0.52304</td>
+              <td>0.40672</td>
+              <td>0.10339</td>
+              <td>0.17087</td>
+              <td>2.39374</td>
+          </tr>
+          <tr id="LC69" class="js-file-line">
+            <td id="L69" class="blob-num js-line-number" data-line-number="69"></td>
+              <td>Latvia</td>
+              <td>Central and Eastern Europe</td>
+              <td>68</td>
+              <td>5.56</td>
+              <td>5.486</td>
+              <td>5.634</td>
+              <td>1.21788</td>
+              <td>0.95025</td>
+              <td>0.63952</td>
+              <td>0.27996</td>
+              <td>0.0889</td>
+              <td>0.17445</td>
+              <td>2.20859</td>
+          </tr>
+          <tr id="LC70" class="js-file-line">
+            <td id="L70" class="blob-num js-line-number" data-line-number="70"></td>
+              <td>Cyprus</td>
+              <td>Western Europe</td>
+              <td>69</td>
+              <td>5.546</td>
+              <td>5.442</td>
+              <td>5.65</td>
+              <td>1.31857</td>
+              <td>0.70697</td>
+              <td>0.8488</td>
+              <td>0.29507</td>
+              <td>0.05228</td>
+              <td>0.27906</td>
+              <td>2.04497</td>
+          </tr>
+          <tr id="LC71" class="js-file-line">
+            <td id="L71" class="blob-num js-line-number" data-line-number="71"></td>
+              <td>Paraguay</td>
+              <td>Latin America and Caribbean</td>
+              <td>70</td>
+              <td>5.538</td>
+              <td>5.453</td>
+              <td>5.623</td>
+              <td>0.89373</td>
+              <td>1.11111</td>
+              <td>0.58295</td>
+              <td>0.46235</td>
+              <td>0.07396</td>
+              <td>0.25296</td>
+              <td>2.16091</td>
+          </tr>
+          <tr id="LC72" class="js-file-line">
+            <td id="L72" class="blob-num js-line-number" data-line-number="72"></td>
+              <td>Romania</td>
+              <td>Central and Eastern Europe</td>
+              <td>71</td>
+              <td>5.528</td>
+              <td>5.427</td>
+              <td>5.629</td>
+              <td>1.1697</td>
+              <td>0.72803</td>
+              <td>0.67602</td>
+              <td>0.36712</td>
+              <td>0.00679</td>
+              <td>0.12889</td>
+              <td>2.45184</td>
+          </tr>
+          <tr id="LC73" class="js-file-line">
+            <td id="L73" class="blob-num js-line-number" data-line-number="73"></td>
+              <td>Estonia</td>
+              <td>Central and Eastern Europe</td>
+              <td>72</td>
+              <td>5.517</td>
+              <td>5.437</td>
+              <td>5.597</td>
+              <td>1.27964</td>
+              <td>1.05163</td>
+              <td>0.68098</td>
+              <td>0.41511</td>
+              <td>0.18519</td>
+              <td>0.08423</td>
+              <td>1.81985</td>
+          </tr>
+          <tr id="LC74" class="js-file-line">
+            <td id="L74" class="blob-num js-line-number" data-line-number="74"></td>
+              <td>Jamaica</td>
+              <td>Latin America and Caribbean</td>
+              <td>73</td>
+              <td>5.51</td>
+              <td>5.315</td>
+              <td>5.705</td>
+              <td>0.89333</td>
+              <td>0.96372</td>
+              <td>0.59469</td>
+              <td>0.43597</td>
+              <td>0.04294</td>
+              <td>0.22245</td>
+              <td>2.35682</td>
+          </tr>
+          <tr id="LC75" class="js-file-line">
+            <td id="L75" class="blob-num js-line-number" data-line-number="75"></td>
+              <td>Croatia</td>
+              <td>Central and Eastern Europe</td>
+              <td>74</td>
+              <td>5.488</td>
+              <td>5.402</td>
+              <td>5.574</td>
+              <td>1.18649</td>
+              <td>0.60809</td>
+              <td>0.70524</td>
+              <td>0.23907</td>
+              <td>0.04002</td>
+              <td>0.18434</td>
+              <td>2.52462</td>
+          </tr>
+          <tr id="LC76" class="js-file-line">
+            <td id="L76" class="blob-num js-line-number" data-line-number="76"></td>
+              <td>Hong Kong</td>
+              <td>Eastern Asia</td>
+              <td>75</td>
+              <td>5.458</td>
+              <td>5.362</td>
+              <td>5.554</td>
+              <td>1.5107</td>
+              <td>0.87021</td>
+              <td>0.95277</td>
+              <td>0.48079</td>
+              <td>0.31647</td>
+              <td>0.40097</td>
+              <td>0.92614</td>
+          </tr>
+          <tr id="LC77" class="js-file-line">
+            <td id="L77" class="blob-num js-line-number" data-line-number="77"></td>
+              <td>Somalia</td>
+              <td>Sub-Saharan Africa</td>
+              <td>76</td>
+              <td>5.44</td>
+              <td>5.321</td>
+              <td>5.559</td>
+              <td>0</td>
+              <td>0.33613</td>
+              <td>0.11466</td>
+              <td>0.56778</td>
+              <td>0.3118</td>
+              <td>0.27225</td>
+              <td>3.83772</td>
+          </tr>
+          <tr id="LC78" class="js-file-line">
+            <td id="L78" class="blob-num js-line-number" data-line-number="78"></td>
+              <td>Kosovo</td>
+              <td>Central and Eastern Europe</td>
+              <td>77</td>
+              <td>5.401</td>
+              <td>5.308</td>
+              <td>5.494</td>
+              <td>0.90145</td>
+              <td>0.66062</td>
+              <td>0.54</td>
+              <td>0.14396</td>
+              <td>0.06547</td>
+              <td>0.27992</td>
+              <td>2.80998</td>
+          </tr>
+          <tr id="LC79" class="js-file-line">
+            <td id="L79" class="blob-num js-line-number" data-line-number="79"></td>
+              <td>Turkey</td>
+              <td>Middle East and Northern Africa</td>
+              <td>78</td>
+              <td>5.389</td>
+              <td>5.295</td>
+              <td>5.483</td>
+              <td>1.16492</td>
+              <td>0.87717</td>
+              <td>0.64718</td>
+              <td>0.23889</td>
+              <td>0.12348</td>
+              <td>0.04707</td>
+              <td>2.29074</td>
+          </tr>
+          <tr id="LC80" class="js-file-line">
+            <td id="L80" class="blob-num js-line-number" data-line-number="80"></td>
+              <td>Indonesia</td>
+              <td>Southeastern Asia</td>
+              <td>79</td>
+              <td>5.314</td>
+              <td>5.237</td>
+              <td>5.391</td>
+              <td>0.95104</td>
+              <td>0.87625</td>
+              <td>0.49374</td>
+              <td>0.39237</td>
+              <td>0.00322</td>
+              <td>0.56521</td>
+              <td>2.03171</td>
+          </tr>
+          <tr id="LC81" class="js-file-line">
+            <td id="L81" class="blob-num js-line-number" data-line-number="81"></td>
+              <td>Jordan</td>
+              <td>Middle East and Northern Africa</td>
+              <td>80</td>
+              <td>5.303</td>
+              <td>5.187</td>
+              <td>5.419</td>
+              <td>0.99673</td>
+              <td>0.86216</td>
+              <td>0.60712</td>
+              <td>0.36023</td>
+              <td>0.13297</td>
+              <td>0.14262</td>
+              <td>2.20142</td>
+          </tr>
+          <tr id="LC82" class="js-file-line">
+            <td id="L82" class="blob-num js-line-number" data-line-number="82"></td>
+              <td>Azerbaijan</td>
+              <td>Central and Eastern Europe</td>
+              <td>81</td>
+              <td>5.291</td>
+              <td>5.226</td>
+              <td>5.356</td>
+              <td>1.12373</td>
+              <td>0.76042</td>
+              <td>0.54504</td>
+              <td>0.35327</td>
+              <td>0.17914</td>
+              <td>0.0564</td>
+              <td>2.2735</td>
+          </tr>
+          <tr id="LC83" class="js-file-line">
+            <td id="L83" class="blob-num js-line-number" data-line-number="83"></td>
+              <td>Philippines</td>
+              <td>Southeastern Asia</td>
+              <td>82</td>
+              <td>5.279</td>
+              <td>5.16</td>
+              <td>5.398</td>
+              <td>0.81217</td>
+              <td>0.87877</td>
+              <td>0.47036</td>
+              <td>0.54854</td>
+              <td>0.11757</td>
+              <td>0.21674</td>
+              <td>2.23484</td>
+          </tr>
+          <tr id="LC84" class="js-file-line">
+            <td id="L84" class="blob-num js-line-number" data-line-number="84"></td>
+              <td>China</td>
+              <td>Eastern Asia</td>
+              <td>83</td>
+              <td>5.245</td>
+              <td>5.199</td>
+              <td>5.291</td>
+              <td>1.0278</td>
+              <td>0.79381</td>
+              <td>0.73561</td>
+              <td>0.44012</td>
+              <td>0.02745</td>
+              <td>0.04959</td>
+              <td>2.17087</td>
+          </tr>
+          <tr id="LC85" class="js-file-line">
+            <td id="L85" class="blob-num js-line-number" data-line-number="85"></td>
+              <td>Bhutan</td>
+              <td>Southern Asia</td>
+              <td>84</td>
+              <td>5.196</td>
+              <td>5.138</td>
+              <td>5.254</td>
+              <td>0.8527</td>
+              <td>0.90836</td>
+              <td>0.49759</td>
+              <td>0.46074</td>
+              <td>0.1616</td>
+              <td>0.48546</td>
+              <td>1.82916</td>
+          </tr>
+          <tr id="LC86" class="js-file-line">
+            <td id="L86" class="blob-num js-line-number" data-line-number="86"></td>
+              <td>Kyrgyzstan</td>
+              <td>Central and Eastern Europe</td>
+              <td>85</td>
+              <td>5.185</td>
+              <td>5.103</td>
+              <td>5.267</td>
+              <td>0.56044</td>
+              <td>0.95434</td>
+              <td>0.55449</td>
+              <td>0.40212</td>
+              <td>0.04762</td>
+              <td>0.38432</td>
+              <td>2.28136</td>
+          </tr>
+          <tr id="LC87" class="js-file-line">
+            <td id="L87" class="blob-num js-line-number" data-line-number="87"></td>
+              <td>Serbia</td>
+              <td>Central and Eastern Europe</td>
+              <td>86</td>
+              <td>5.177</td>
+              <td>5.083</td>
+              <td>5.271</td>
+              <td>1.03437</td>
+              <td>0.81329</td>
+              <td>0.6458</td>
+              <td>0.15718</td>
+              <td>0.04339</td>
+              <td>0.20737</td>
+              <td>2.27539</td>
+          </tr>
+          <tr id="LC88" class="js-file-line">
+            <td id="L88" class="blob-num js-line-number" data-line-number="88"></td>
+              <td>Bosnia and Herzegovina</td>
+              <td>Central and Eastern Europe</td>
+              <td>87</td>
+              <td>5.163</td>
+              <td>5.063</td>
+              <td>5.263</td>
+              <td>0.93383</td>
+              <td>0.64367</td>
+              <td>0.70766</td>
+              <td>0.09511</td>
+              <td>0</td>
+              <td>0.29889</td>
+              <td>2.48406</td>
+          </tr>
+          <tr id="LC89" class="js-file-line">
+            <td id="L89" class="blob-num js-line-number" data-line-number="89"></td>
+              <td>Montenegro</td>
+              <td>Central and Eastern Europe</td>
+              <td>88</td>
+              <td>5.161</td>
+              <td>5.055</td>
+              <td>5.267</td>
+              <td>1.07838</td>
+              <td>0.74173</td>
+              <td>0.63533</td>
+              <td>0.15111</td>
+              <td>0.12721</td>
+              <td>0.17191</td>
+              <td>2.25531</td>
+          </tr>
+          <tr id="LC90" class="js-file-line">
+            <td id="L90" class="blob-num js-line-number" data-line-number="90"></td>
+              <td>Dominican Republic</td>
+              <td>Latin America and Caribbean</td>
+              <td>89</td>
+              <td>5.155</td>
+              <td>5.037</td>
+              <td>5.273</td>
+              <td>1.02787</td>
+              <td>0.99496</td>
+              <td>0.57669</td>
+              <td>0.52259</td>
+              <td>0.12372</td>
+              <td>0.21286</td>
+              <td>1.69626</td>
+          </tr>
+          <tr id="LC91" class="js-file-line">
+            <td id="L91" class="blob-num js-line-number" data-line-number="91"></td>
+              <td>Morocco</td>
+              <td>Middle East and Northern Africa</td>
+              <td>90</td>
+              <td>5.151</td>
+              <td>5.058</td>
+              <td>5.244</td>
+              <td>0.84058</td>
+              <td>0.38595</td>
+              <td>0.59471</td>
+              <td>0.25646</td>
+              <td>0.08404</td>
+              <td>0.04053</td>
+              <td>2.94891</td>
+          </tr>
+          <tr id="LC92" class="js-file-line">
+            <td id="L92" class="blob-num js-line-number" data-line-number="92"></td>
+              <td>Hungary</td>
+              <td>Central and Eastern Europe</td>
+              <td>91</td>
+              <td>5.145</td>
+              <td>5.056</td>
+              <td>5.234</td>
+              <td>1.24142</td>
+              <td>0.93164</td>
+              <td>0.67608</td>
+              <td>0.1977</td>
+              <td>0.04472</td>
+              <td>0.099</td>
+              <td>1.95473</td>
+          </tr>
+          <tr id="LC93" class="js-file-line">
+            <td id="L93" class="blob-num js-line-number" data-line-number="93"></td>
+              <td>Pakistan</td>
+              <td>Southern Asia</td>
+              <td>92</td>
+              <td>5.132</td>
+              <td>5.038</td>
+              <td>5.226</td>
+              <td>0.68816</td>
+              <td>0.26135</td>
+              <td>0.40306</td>
+              <td>0.14622</td>
+              <td>0.1388</td>
+              <td>0.31185</td>
+              <td>3.18286</td>
+          </tr>
+          <tr id="LC94" class="js-file-line">
+            <td id="L94" class="blob-num js-line-number" data-line-number="94"></td>
+              <td>Lebanon</td>
+              <td>Middle East and Northern Africa</td>
+              <td>93</td>
+              <td>5.129</td>
+              <td>5.031</td>
+              <td>5.227</td>
+              <td>1.12268</td>
+              <td>0.64184</td>
+              <td>0.76171</td>
+              <td>0.26228</td>
+              <td>0.03061</td>
+              <td>0.23693</td>
+              <td>2.07339</td>
+          </tr>
+          <tr id="LC95" class="js-file-line">
+            <td id="L95" class="blob-num js-line-number" data-line-number="95"></td>
+              <td>Portugal</td>
+              <td>Western Europe</td>
+              <td>94</td>
+              <td>5.123</td>
+              <td>5.03</td>
+              <td>5.216</td>
+              <td>1.27607</td>
+              <td>0.94367</td>
+              <td>0.79363</td>
+              <td>0.44727</td>
+              <td>0.01521</td>
+              <td>0.11691</td>
+              <td>1.53015</td>
+          </tr>
+          <tr id="LC96" class="js-file-line">
+            <td id="L96" class="blob-num js-line-number" data-line-number="96"></td>
+              <td>Macedonia</td>
+              <td>Central and Eastern Europe</td>
+              <td>95</td>
+              <td>5.121</td>
+              <td>5.017</td>
+              <td>5.225</td>
+              <td>1.0193</td>
+              <td>0.78236</td>
+              <td>0.64738</td>
+              <td>0.27668</td>
+              <td>0.07047</td>
+              <td>0.23507</td>
+              <td>2.08947</td>
+          </tr>
+          <tr id="LC97" class="js-file-line">
+            <td id="L97" class="blob-num js-line-number" data-line-number="97"></td>
+              <td>Vietnam</td>
+              <td>Southeastern Asia</td>
+              <td>96</td>
+              <td>5.061</td>
+              <td>4.991</td>
+              <td>5.131</td>
+              <td>0.74037</td>
+              <td>0.79117</td>
+              <td>0.66157</td>
+              <td>0.55954</td>
+              <td>0.11556</td>
+              <td>0.25075</td>
+              <td>1.9418</td>
+          </tr>
+          <tr id="LC98" class="js-file-line">
+            <td id="L98" class="blob-num js-line-number" data-line-number="98"></td>
+              <td>Somaliland Region</td>
+              <td>Sub-Saharan Africa</td>
+              <td>97</td>
+              <td>5.057</td>
+              <td>4.934</td>
+              <td>5.18</td>
+              <td>0.25558</td>
+              <td>0.75862</td>
+              <td>0.33108</td>
+              <td>0.3913</td>
+              <td>0.36794</td>
+              <td>0.51479</td>
+              <td>2.43801</td>
+          </tr>
+          <tr id="LC99" class="js-file-line">
+            <td id="L99" class="blob-num js-line-number" data-line-number="99"></td>
+              <td>Tunisia</td>
+              <td>Middle East and Northern Africa</td>
+              <td>98</td>
+              <td>5.045</td>
+              <td>4.965</td>
+              <td>5.125</td>
+              <td>0.97724</td>
+              <td>0.43165</td>
+              <td>0.59577</td>
+              <td>0.23553</td>
+              <td>0.0817</td>
+              <td>0.03936</td>
+              <td>2.68413</td>
+          </tr>
+          <tr id="LC100" class="js-file-line">
+            <td id="L100" class="blob-num js-line-number" data-line-number="100"></td>
+              <td>Greece</td>
+              <td>Western Europe</td>
+              <td>99</td>
+              <td>5.033</td>
+              <td>4.935</td>
+              <td>5.131</td>
+              <td>1.24886</td>
+              <td>0.75473</td>
+              <td>0.80029</td>
+              <td>0.05822</td>
+              <td>0.04127</td>
+              <td>0</td>
+              <td>2.12944</td>
+          </tr>
+          <tr id="LC101" class="js-file-line">
+            <td id="L101" class="blob-num js-line-number" data-line-number="101"></td>
+              <td>Tajikistan</td>
+              <td>Central and Eastern Europe</td>
+              <td>100</td>
+              <td>4.996</td>
+              <td>4.923</td>
+              <td>5.069</td>
+              <td>0.48835</td>
+              <td>0.75602</td>
+              <td>0.53119</td>
+              <td>0.43408</td>
+              <td>0.13509</td>
+              <td>0.25998</td>
+              <td>2.39106</td>
+          </tr>
+          <tr id="LC102" class="js-file-line">
+            <td id="L102" class="blob-num js-line-number" data-line-number="102"></td>
+              <td>Mongolia</td>
+              <td>Eastern Asia</td>
+              <td>101</td>
+              <td>4.907</td>
+              <td>4.838</td>
+              <td>4.976</td>
+              <td>0.98853</td>
+              <td>1.08983</td>
+              <td>0.55469</td>
+              <td>0.35972</td>
+              <td>0.03285</td>
+              <td>0.34539</td>
+              <td>1.53586</td>
+          </tr>
+          <tr id="LC103" class="js-file-line">
+            <td id="L103" class="blob-num js-line-number" data-line-number="103"></td>
+              <td>Laos</td>
+              <td>Southeastern Asia</td>
+              <td>102</td>
+              <td>4.876</td>
+              <td>4.742</td>
+              <td>5.01</td>
+              <td>0.68042</td>
+              <td>0.5497</td>
+              <td>0.38291</td>
+              <td>0.52168</td>
+              <td>0.22423</td>
+              <td>0.43079</td>
+              <td>2.08637</td>
+          </tr>
+          <tr id="LC104" class="js-file-line">
+            <td id="L104" class="blob-num js-line-number" data-line-number="104"></td>
+              <td>Nigeria</td>
+              <td>Sub-Saharan Africa</td>
+              <td>103</td>
+              <td>4.875</td>
+              <td>4.75</td>
+              <td>5</td>
+              <td>0.75216</td>
+              <td>0.64498</td>
+              <td>0.05108</td>
+              <td>0.27854</td>
+              <td>0.0305</td>
+              <td>0.23219</td>
+              <td>2.88586</td>
+          </tr>
+          <tr id="LC105" class="js-file-line">
+            <td id="L105" class="blob-num js-line-number" data-line-number="105"></td>
+              <td>Honduras</td>
+              <td>Latin America and Caribbean</td>
+              <td>104</td>
+              <td>4.871</td>
+              <td>4.75</td>
+              <td>4.992</td>
+              <td>0.69429</td>
+              <td>0.75596</td>
+              <td>0.58383</td>
+              <td>0.26755</td>
+              <td>0.06906</td>
+              <td>0.2044</td>
+              <td>2.29551</td>
+          </tr>
+          <tr id="LC106" class="js-file-line">
+            <td id="L106" class="blob-num js-line-number" data-line-number="106"></td>
+              <td>Iran</td>
+              <td>Middle East and Northern Africa</td>
+              <td>105</td>
+              <td>4.813</td>
+              <td>4.703</td>
+              <td>4.923</td>
+              <td>1.11758</td>
+              <td>0.38857</td>
+              <td>0.64232</td>
+              <td>0.22544</td>
+              <td>0.0557</td>
+              <td>0.38538</td>
+              <td>1.99817</td>
+          </tr>
+          <tr id="LC107" class="js-file-line">
+            <td id="L107" class="blob-num js-line-number" data-line-number="107"></td>
+              <td>Zambia</td>
+              <td>Sub-Saharan Africa</td>
+              <td>106</td>
+              <td>4.795</td>
+              <td>4.645</td>
+              <td>4.945</td>
+              <td>0.61202</td>
+              <td>0.6376</td>
+              <td>0.23573</td>
+              <td>0.42662</td>
+              <td>0.11479</td>
+              <td>0.17866</td>
+              <td>2.58991</td>
+          </tr>
+          <tr id="LC108" class="js-file-line">
+            <td id="L108" class="blob-num js-line-number" data-line-number="108"></td>
+              <td>Nepal</td>
+              <td>Southern Asia</td>
+              <td>107</td>
+              <td>4.793</td>
+              <td>4.698</td>
+              <td>4.888</td>
+              <td>0.44626</td>
+              <td>0.69699</td>
+              <td>0.50073</td>
+              <td>0.37012</td>
+              <td>0.07008</td>
+              <td>0.3816</td>
+              <td>2.32694</td>
+          </tr>
+          <tr id="LC109" class="js-file-line">
+            <td id="L109" class="blob-num js-line-number" data-line-number="109"></td>
+              <td>Palestinian Territories</td>
+              <td>Middle East and Northern Africa</td>
+              <td>108</td>
+              <td>4.754</td>
+              <td>4.649</td>
+              <td>4.859</td>
+              <td>0.67024</td>
+              <td>0.71629</td>
+              <td>0.56844</td>
+              <td>0.17744</td>
+              <td>0.10613</td>
+              <td>0.11154</td>
+              <td>2.40364</td>
+          </tr>
+          <tr id="LC110" class="js-file-line">
+            <td id="L110" class="blob-num js-line-number" data-line-number="110"></td>
+              <td>Albania</td>
+              <td>Central and Eastern Europe</td>
+              <td>109</td>
+              <td>4.655</td>
+              <td>4.546</td>
+              <td>4.764</td>
+              <td>0.9553</td>
+              <td>0.50163</td>
+              <td>0.73007</td>
+              <td>0.31866</td>
+              <td>0.05301</td>
+              <td>0.1684</td>
+              <td>1.92816</td>
+          </tr>
+          <tr id="LC111" class="js-file-line">
+            <td id="L111" class="blob-num js-line-number" data-line-number="111"></td>
+              <td>Bangladesh</td>
+              <td>Southern Asia</td>
+              <td>110</td>
+              <td>4.643</td>
+              <td>4.56</td>
+              <td>4.726</td>
+              <td>0.54177</td>
+              <td>0.24749</td>
+              <td>0.52989</td>
+              <td>0.39778</td>
+              <td>0.12583</td>
+              <td>0.19132</td>
+              <td>2.60904</td>
+          </tr>
+          <tr id="LC112" class="js-file-line">
+            <td id="L112" class="blob-num js-line-number" data-line-number="112"></td>
+              <td>Sierra Leone</td>
+              <td>Sub-Saharan Africa</td>
+              <td>111</td>
+              <td>4.635</td>
+              <td>4.505</td>
+              <td>4.765</td>
+              <td>0.36485</td>
+              <td>0.628</td>
+              <td>0</td>
+              <td>0.30685</td>
+              <td>0.08196</td>
+              <td>0.23897</td>
+              <td>3.01402</td>
+          </tr>
+          <tr id="LC113" class="js-file-line">
+            <td id="L113" class="blob-num js-line-number" data-line-number="113"></td>
+              <td>Iraq</td>
+              <td>Middle East and Northern Africa</td>
+              <td>112</td>
+              <td>4.575</td>
+              <td>4.446</td>
+              <td>4.704</td>
+              <td>1.07474</td>
+              <td>0.59205</td>
+              <td>0.51076</td>
+              <td>0.24856</td>
+              <td>0.13636</td>
+              <td>0.19589</td>
+              <td>1.81657</td>
+          </tr>
+          <tr id="LC114" class="js-file-line">
+            <td id="L114" class="blob-num js-line-number" data-line-number="114"></td>
+              <td>Namibia</td>
+              <td>Sub-Saharan Africa</td>
+              <td>113</td>
+              <td>4.574</td>
+              <td>4.374</td>
+              <td>4.774</td>
+              <td>0.93287</td>
+              <td>0.70362</td>
+              <td>0.34745</td>
+              <td>0.48614</td>
+              <td>0.10398</td>
+              <td>0.07795</td>
+              <td>1.92198</td>
+          </tr>
+          <tr id="LC115" class="js-file-line">
+            <td id="L115" class="blob-num js-line-number" data-line-number="115"></td>
+              <td>Cameroon</td>
+              <td>Sub-Saharan Africa</td>
+              <td>114</td>
+              <td>4.513</td>
+              <td>4.417</td>
+              <td>4.609</td>
+              <td>0.52497</td>
+              <td>0.62542</td>
+              <td>0.12698</td>
+              <td>0.42736</td>
+              <td>0.06126</td>
+              <td>0.2268</td>
+              <td>2.5198</td>
+          </tr>
+          <tr id="LC116" class="js-file-line">
+            <td id="L116" class="blob-num js-line-number" data-line-number="116"></td>
+              <td>Ethiopia</td>
+              <td>Sub-Saharan Africa</td>
+              <td>115</td>
+              <td>4.508</td>
+              <td>4.425</td>
+              <td>4.591</td>
+              <td>0.29283</td>
+              <td>0.37932</td>
+              <td>0.34578</td>
+              <td>0.36703</td>
+              <td>0.1717</td>
+              <td>0.29522</td>
+              <td>2.65614</td>
+          </tr>
+          <tr id="LC117" class="js-file-line">
+            <td id="L117" class="blob-num js-line-number" data-line-number="117"></td>
+              <td>South Africa</td>
+              <td>Sub-Saharan Africa</td>
+              <td>116</td>
+              <td>4.459</td>
+              <td>4.371</td>
+              <td>4.547</td>
+              <td>1.02416</td>
+              <td>0.96053</td>
+              <td>0.18611</td>
+              <td>0.42483</td>
+              <td>0.08415</td>
+              <td>0.13656</td>
+              <td>1.64227</td>
+          </tr>
+          <tr id="LC118" class="js-file-line">
+            <td id="L118" class="blob-num js-line-number" data-line-number="118"></td>
+              <td>Sri Lanka</td>
+              <td>Southern Asia</td>
+              <td>117</td>
+              <td>4.415</td>
+              <td>4.322</td>
+              <td>4.508</td>
+              <td>0.97318</td>
+              <td>0.84783</td>
+              <td>0.62007</td>
+              <td>0.50817</td>
+              <td>0.07964</td>
+              <td>0.46978</td>
+              <td>0.91681</td>
+          </tr>
+          <tr id="LC119" class="js-file-line">
+            <td id="L119" class="blob-num js-line-number" data-line-number="119"></td>
+              <td>India</td>
+              <td>Southern Asia</td>
+              <td>118</td>
+              <td>4.404</td>
+              <td>4.351</td>
+              <td>4.457</td>
+              <td>0.74036</td>
+              <td>0.29247</td>
+              <td>0.45091</td>
+              <td>0.40285</td>
+              <td>0.08722</td>
+              <td>0.25028</td>
+              <td>2.18032</td>
+          </tr>
+          <tr id="LC120" class="js-file-line">
+            <td id="L120" class="blob-num js-line-number" data-line-number="120"></td>
+              <td>Myanmar</td>
+              <td>Southeastern Asia</td>
+              <td>119</td>
+              <td>4.395</td>
+              <td>4.327</td>
+              <td>4.463</td>
+              <td>0.34112</td>
+              <td>0.69981</td>
+              <td>0.3988</td>
+              <td>0.42692</td>
+              <td>0.20243</td>
+              <td>0.81971</td>
+              <td>1.50655</td>
+          </tr>
+          <tr id="LC121" class="js-file-line">
+            <td id="L121" class="blob-num js-line-number" data-line-number="121"></td>
+              <td>Egypt</td>
+              <td>Middle East and Northern Africa</td>
+              <td>120</td>
+              <td>4.362</td>
+              <td>4.259</td>
+              <td>4.465</td>
+              <td>0.95395</td>
+              <td>0.49813</td>
+              <td>0.52116</td>
+              <td>0.18847</td>
+              <td>0.10393</td>
+              <td>0.12706</td>
+              <td>1.96895</td>
+          </tr>
+          <tr id="LC122" class="js-file-line">
+            <td id="L122" class="blob-num js-line-number" data-line-number="122"></td>
+              <td>Armenia</td>
+              <td>Central and Eastern Europe</td>
+              <td>121</td>
+              <td>4.36</td>
+              <td>4.266</td>
+              <td>4.454</td>
+              <td>0.86086</td>
+              <td>0.62477</td>
+              <td>0.64083</td>
+              <td>0.14037</td>
+              <td>0.03616</td>
+              <td>0.07793</td>
+              <td>1.97864</td>
+          </tr>
+          <tr id="LC123" class="js-file-line">
+            <td id="L123" class="blob-num js-line-number" data-line-number="123"></td>
+              <td>Kenya</td>
+              <td>Sub-Saharan Africa</td>
+              <td>122</td>
+              <td>4.356</td>
+              <td>4.259</td>
+              <td>4.453</td>
+              <td>0.52267</td>
+              <td>0.7624</td>
+              <td>0.30147</td>
+              <td>0.40576</td>
+              <td>0.06686</td>
+              <td>0.41328</td>
+              <td>1.88326</td>
+          </tr>
+          <tr id="LC124" class="js-file-line">
+            <td id="L124" class="blob-num js-line-number" data-line-number="124"></td>
+              <td>Ukraine</td>
+              <td>Central and Eastern Europe</td>
+              <td>123</td>
+              <td>4.324</td>
+              <td>4.236</td>
+              <td>4.412</td>
+              <td>0.87287</td>
+              <td>1.01413</td>
+              <td>0.58628</td>
+              <td>0.12859</td>
+              <td>0.01829</td>
+              <td>0.20363</td>
+              <td>1.50066</td>
+          </tr>
+          <tr id="LC125" class="js-file-line">
+            <td id="L125" class="blob-num js-line-number" data-line-number="125"></td>
+              <td>Ghana</td>
+              <td>Sub-Saharan Africa</td>
+              <td>124</td>
+              <td>4.276</td>
+              <td>4.185</td>
+              <td>4.367</td>
+              <td>0.63107</td>
+              <td>0.49353</td>
+              <td>0.29681</td>
+              <td>0.40973</td>
+              <td>0.0326</td>
+              <td>0.21203</td>
+              <td>2.2002</td>
+          </tr>
+          <tr id="LC126" class="js-file-line">
+            <td id="L126" class="blob-num js-line-number" data-line-number="126"></td>
+              <td>Congo (Kinshasa)</td>
+              <td>Sub-Saharan Africa</td>
+              <td>125</td>
+              <td>4.272</td>
+              <td>4.191</td>
+              <td>4.353</td>
+              <td>0.05661</td>
+              <td>0.80676</td>
+              <td>0.188</td>
+              <td>0.15602</td>
+              <td>0.06075</td>
+              <td>0.25458</td>
+              <td>2.74924</td>
+          </tr>
+          <tr id="LC127" class="js-file-line">
+            <td id="L127" class="blob-num js-line-number" data-line-number="127"></td>
+              <td>Georgia</td>
+              <td>Central and Eastern Europe</td>
+              <td>126</td>
+              <td>4.252</td>
+              <td>4.164</td>
+              <td>4.34</td>
+              <td>0.83792</td>
+              <td>0.19249</td>
+              <td>0.64035</td>
+              <td>0.32461</td>
+              <td>0.3188</td>
+              <td>0.06786</td>
+              <td>1.87031</td>
+          </tr>
+          <tr id="LC128" class="js-file-line">
+            <td id="L128" class="blob-num js-line-number" data-line-number="128"></td>
+              <td>Congo (Brazzaville)</td>
+              <td>Sub-Saharan Africa</td>
+              <td>127</td>
+              <td>4.236</td>
+              <td>4.107</td>
+              <td>4.365</td>
+              <td>0.77109</td>
+              <td>0.47799</td>
+              <td>0.28212</td>
+              <td>0.37938</td>
+              <td>0.09753</td>
+              <td>0.12077</td>
+              <td>2.10681</td>
+          </tr>
+          <tr id="LC129" class="js-file-line">
+            <td id="L129" class="blob-num js-line-number" data-line-number="129"></td>
+              <td>Senegal</td>
+              <td>Sub-Saharan Africa</td>
+              <td>128</td>
+              <td>4.219</td>
+              <td>4.151</td>
+              <td>4.287</td>
+              <td>0.44314</td>
+              <td>0.77416</td>
+              <td>0.40457</td>
+              <td>0.31056</td>
+              <td>0.11681</td>
+              <td>0.19103</td>
+              <td>1.97861</td>
+          </tr>
+          <tr id="LC130" class="js-file-line">
+            <td id="L130" class="blob-num js-line-number" data-line-number="130"></td>
+              <td>Bulgaria</td>
+              <td>Central and Eastern Europe</td>
+              <td>129</td>
+              <td>4.217</td>
+              <td>4.104</td>
+              <td>4.33</td>
+              <td>1.11306</td>
+              <td>0.92542</td>
+              <td>0.67806</td>
+              <td>0.21219</td>
+              <td>0.00615</td>
+              <td>0.12793</td>
+              <td>1.15377</td>
+          </tr>
+          <tr id="LC131" class="js-file-line">
+            <td id="L131" class="blob-num js-line-number" data-line-number="131"></td>
+              <td>Mauritania</td>
+              <td>Sub-Saharan Africa</td>
+              <td>130</td>
+              <td>4.201</td>
+              <td>4.127</td>
+              <td>4.275</td>
+              <td>0.61391</td>
+              <td>0.84142</td>
+              <td>0.28639</td>
+              <td>0.1268</td>
+              <td>0.17955</td>
+              <td>0.22686</td>
+              <td>1.9263</td>
+          </tr>
+          <tr id="LC132" class="js-file-line">
+            <td id="L132" class="blob-num js-line-number" data-line-number="132"></td>
+              <td>Zimbabwe</td>
+              <td>Sub-Saharan Africa</td>
+              <td>131</td>
+              <td>4.193</td>
+              <td>4.101</td>
+              <td>4.285</td>
+              <td>0.35041</td>
+              <td>0.71478</td>
+              <td>0.1595</td>
+              <td>0.25429</td>
+              <td>0.08582</td>
+              <td>0.18503</td>
+              <td>2.4427</td>
+          </tr>
+          <tr id="LC133" class="js-file-line">
+            <td id="L133" class="blob-num js-line-number" data-line-number="133"></td>
+              <td>Malawi</td>
+              <td>Sub-Saharan Africa</td>
+              <td>132</td>
+              <td>4.156</td>
+              <td>4.041</td>
+              <td>4.271</td>
+              <td>0.08709</td>
+              <td>0.147</td>
+              <td>0.29364</td>
+              <td>0.4143</td>
+              <td>0.07564</td>
+              <td>0.30968</td>
+              <td>2.82859</td>
+          </tr>
+          <tr id="LC134" class="js-file-line">
+            <td id="L134" class="blob-num js-line-number" data-line-number="134"></td>
+              <td>Sudan</td>
+              <td>Sub-Saharan Africa</td>
+              <td>133</td>
+              <td>4.139</td>
+              <td>3.928</td>
+              <td>4.35</td>
+              <td>0.63069</td>
+              <td>0.81928</td>
+              <td>0.29759</td>
+              <td>0</td>
+              <td>0.10039</td>
+              <td>0.18077</td>
+              <td>2.10995</td>
+          </tr>
+          <tr id="LC135" class="js-file-line">
+            <td id="L135" class="blob-num js-line-number" data-line-number="135"></td>
+              <td>Gabon</td>
+              <td>Sub-Saharan Africa</td>
+              <td>134</td>
+              <td>4.121</td>
+              <td>4.03</td>
+              <td>4.212</td>
+              <td>1.15851</td>
+              <td>0.72368</td>
+              <td>0.3494</td>
+              <td>0.28098</td>
+              <td>0.09314</td>
+              <td>0.06244</td>
+              <td>1.45332</td>
+          </tr>
+          <tr id="LC136" class="js-file-line">
+            <td id="L136" class="blob-num js-line-number" data-line-number="136"></td>
+              <td>Mali</td>
+              <td>Sub-Saharan Africa</td>
+              <td>135</td>
+              <td>4.073</td>
+              <td>3.988</td>
+              <td>4.158</td>
+              <td>0.31292</td>
+              <td>0.86333</td>
+              <td>0.16347</td>
+              <td>0.27544</td>
+              <td>0.13647</td>
+              <td>0.21064</td>
+              <td>2.11087</td>
+          </tr>
+          <tr id="LC137" class="js-file-line">
+            <td id="L137" class="blob-num js-line-number" data-line-number="137"></td>
+              <td>Haiti</td>
+              <td>Latin America and Caribbean</td>
+              <td>136</td>
+              <td>4.028</td>
+              <td>3.893</td>
+              <td>4.163</td>
+              <td>0.34097</td>
+              <td>0.29561</td>
+              <td>0.27494</td>
+              <td>0.12072</td>
+              <td>0.14476</td>
+              <td>0.47958</td>
+              <td>2.37116</td>
+          </tr>
+          <tr id="LC138" class="js-file-line">
+            <td id="L138" class="blob-num js-line-number" data-line-number="138"></td>
+              <td>Botswana</td>
+              <td>Sub-Saharan Africa</td>
+              <td>137</td>
+              <td>3.974</td>
+              <td>3.875</td>
+              <td>4.073</td>
+              <td>1.09426</td>
+              <td>0.89186</td>
+              <td>0.34752</td>
+              <td>0.44089</td>
+              <td>0.10769</td>
+              <td>0.12425</td>
+              <td>0.96741</td>
+          </tr>
+          <tr id="LC139" class="js-file-line">
+            <td id="L139" class="blob-num js-line-number" data-line-number="139"></td>
+              <td>Comoros</td>
+              <td>Sub-Saharan Africa</td>
+              <td>138</td>
+              <td>3.956</td>
+              <td>3.86</td>
+              <td>4.052</td>
+              <td>0.27509</td>
+              <td>0.60323</td>
+              <td>0.29981</td>
+              <td>0.15412</td>
+              <td>0.18437</td>
+              <td>0.1827</td>
+              <td>2.25632</td>
+          </tr>
+          <tr id="LC140" class="js-file-line">
+            <td id="L140" class="blob-num js-line-number" data-line-number="140"></td>
+              <td>Ivory Coast</td>
+              <td>Sub-Saharan Africa</td>
+              <td>139</td>
+              <td>3.916</td>
+              <td>3.826</td>
+              <td>4.006</td>
+              <td>0.55507</td>
+              <td>0.57576</td>
+              <td>0.04476</td>
+              <td>0.40663</td>
+              <td>0.1553</td>
+              <td>0.20338</td>
+              <td>1.97478</td>
+          </tr>
+          <tr id="LC141" class="js-file-line">
+            <td id="L141" class="blob-num js-line-number" data-line-number="141"></td>
+              <td>Cambodia</td>
+              <td>Southeastern Asia</td>
+              <td>140</td>
+              <td>3.907</td>
+              <td>3.798</td>
+              <td>4.016</td>
+              <td>0.55604</td>
+              <td>0.5375</td>
+              <td>0.42494</td>
+              <td>0.58852</td>
+              <td>0.08092</td>
+              <td>0.40339</td>
+              <td>1.31573</td>
+          </tr>
+          <tr id="LC142" class="js-file-line">
+            <td id="L142" class="blob-num js-line-number" data-line-number="142"></td>
+              <td>Angola</td>
+              <td>Sub-Saharan Africa</td>
+              <td>141</td>
+              <td>3.866</td>
+              <td>3.753</td>
+              <td>3.979</td>
+              <td>0.84731</td>
+              <td>0.66366</td>
+              <td>0.04991</td>
+              <td>0.00589</td>
+              <td>0.08434</td>
+              <td>0.12071</td>
+              <td>2.09459</td>
+          </tr>
+          <tr id="LC143" class="js-file-line">
+            <td id="L143" class="blob-num js-line-number" data-line-number="143"></td>
+              <td>Niger</td>
+              <td>Sub-Saharan Africa</td>
+              <td>142</td>
+              <td>3.856</td>
+              <td>3.781</td>
+              <td>3.931</td>
+              <td>0.1327</td>
+              <td>0.6053</td>
+              <td>0.26162</td>
+              <td>0.38041</td>
+              <td>0.17176</td>
+              <td>0.2097</td>
+              <td>2.09469</td>
+          </tr>
+          <tr id="LC144" class="js-file-line">
+            <td id="L144" class="blob-num js-line-number" data-line-number="144"></td>
+              <td>South Sudan</td>
+              <td>Sub-Saharan Africa</td>
+              <td>143</td>
+              <td>3.832</td>
+              <td>3.596</td>
+              <td>4.068</td>
+              <td>0.39394</td>
+              <td>0.18519</td>
+              <td>0.15781</td>
+              <td>0.19662</td>
+              <td>0.13015</td>
+              <td>0.25899</td>
+              <td>2.50929</td>
+          </tr>
+          <tr id="LC145" class="js-file-line">
+            <td id="L145" class="blob-num js-line-number" data-line-number="145"></td>
+              <td>Chad</td>
+              <td>Sub-Saharan Africa</td>
+              <td>144</td>
+              <td>3.763</td>
+              <td>3.672</td>
+              <td>3.854</td>
+              <td>0.42214</td>
+              <td>0.63178</td>
+              <td>0.03824</td>
+              <td>0.12807</td>
+              <td>0.04952</td>
+              <td>0.18667</td>
+              <td>2.30637</td>
+          </tr>
+          <tr id="LC146" class="js-file-line">
+            <td id="L146" class="blob-num js-line-number" data-line-number="146"></td>
+              <td>Burkina Faso</td>
+              <td>Sub-Saharan Africa</td>
+              <td>145</td>
+              <td>3.739</td>
+              <td>3.647</td>
+              <td>3.831</td>
+              <td>0.31995</td>
+              <td>0.63054</td>
+              <td>0.21297</td>
+              <td>0.3337</td>
+              <td>0.12533</td>
+              <td>0.24353</td>
+              <td>1.87319</td>
+          </tr>
+          <tr id="LC147" class="js-file-line">
+            <td id="L147" class="blob-num js-line-number" data-line-number="147"></td>
+              <td>Uganda</td>
+              <td>Sub-Saharan Africa</td>
+              <td>145</td>
+              <td>3.739</td>
+              <td>3.629</td>
+              <td>3.849</td>
+              <td>0.34719</td>
+              <td>0.90981</td>
+              <td>0.19625</td>
+              <td>0.43653</td>
+              <td>0.06442</td>
+              <td>0.27102</td>
+              <td>1.51416</td>
+          </tr>
+          <tr id="LC148" class="js-file-line">
+            <td id="L148" class="blob-num js-line-number" data-line-number="148"></td>
+              <td>Yemen</td>
+              <td>Middle East and Northern Africa</td>
+              <td>147</td>
+              <td>3.724</td>
+              <td>3.621</td>
+              <td>3.827</td>
+              <td>0.57939</td>
+              <td>0.47493</td>
+              <td>0.31048</td>
+              <td>0.2287</td>
+              <td>0.05892</td>
+              <td>0.09821</td>
+              <td>1.97295</td>
+          </tr>
+          <tr id="LC149" class="js-file-line">
+            <td id="L149" class="blob-num js-line-number" data-line-number="149"></td>
+              <td>Madagascar</td>
+              <td>Sub-Saharan Africa</td>
+              <td>148</td>
+              <td>3.695</td>
+              <td>3.621</td>
+              <td>3.769</td>
+              <td>0.27954</td>
+              <td>0.46115</td>
+              <td>0.37109</td>
+              <td>0.13684</td>
+              <td>0.07506</td>
+              <td>0.2204</td>
+              <td>2.15075</td>
+          </tr>
+          <tr id="LC150" class="js-file-line">
+            <td id="L150" class="blob-num js-line-number" data-line-number="150"></td>
+              <td>Tanzania</td>
+              <td>Sub-Saharan Africa</td>
+              <td>149</td>
+              <td>3.666</td>
+              <td>3.561</td>
+              <td>3.771</td>
+              <td>0.47155</td>
+              <td>0.77623</td>
+              <td>0.357</td>
+              <td>0.3176</td>
+              <td>0.05099</td>
+              <td>0.31472</td>
+              <td>1.37769</td>
+          </tr>
+          <tr id="LC151" class="js-file-line">
+            <td id="L151" class="blob-num js-line-number" data-line-number="151"></td>
+              <td>Liberia</td>
+              <td>Sub-Saharan Africa</td>
+              <td>150</td>
+              <td>3.622</td>
+              <td>3.463</td>
+              <td>3.781</td>
+              <td>0.10706</td>
+              <td>0.50353</td>
+              <td>0.23165</td>
+              <td>0.25748</td>
+              <td>0.04852</td>
+              <td>0.24063</td>
+              <td>2.23284</td>
+          </tr>
+          <tr id="LC152" class="js-file-line">
+            <td id="L152" class="blob-num js-line-number" data-line-number="152"></td>
+              <td>Guinea</td>
+              <td>Sub-Saharan Africa</td>
+              <td>151</td>
+              <td>3.607</td>
+              <td>3.533</td>
+              <td>3.681</td>
+              <td>0.22415</td>
+              <td>0.3109</td>
+              <td>0.18829</td>
+              <td>0.30953</td>
+              <td>0.1192</td>
+              <td>0.29914</td>
+              <td>2.15604</td>
+          </tr>
+          <tr id="LC153" class="js-file-line">
+            <td id="L153" class="blob-num js-line-number" data-line-number="153"></td>
+              <td>Rwanda</td>
+              <td>Sub-Saharan Africa</td>
+              <td>152</td>
+              <td>3.515</td>
+              <td>3.444</td>
+              <td>3.586</td>
+              <td>0.32846</td>
+              <td>0.61586</td>
+              <td>0.31865</td>
+              <td>0.5432</td>
+              <td>0.50521</td>
+              <td>0.23552</td>
+              <td>0.96819</td>
+          </tr>
+          <tr id="LC154" class="js-file-line">
+            <td id="L154" class="blob-num js-line-number" data-line-number="154"></td>
+              <td>Benin</td>
+              <td>Sub-Saharan Africa</td>
+              <td>153</td>
+              <td>3.484</td>
+              <td>3.404</td>
+              <td>3.564</td>
+              <td>0.39499</td>
+              <td>0.10419</td>
+              <td>0.21028</td>
+              <td>0.39747</td>
+              <td>0.06681</td>
+              <td>0.2018</td>
+              <td>2.10812</td>
+          </tr>
+          <tr id="LC155" class="js-file-line">
+            <td id="L155" class="blob-num js-line-number" data-line-number="155"></td>
+              <td>Afghanistan</td>
+              <td>Southern Asia</td>
+              <td>154</td>
+              <td>3.36</td>
+              <td>3.288</td>
+              <td>3.432</td>
+              <td>0.38227</td>
+              <td>0.11037</td>
+              <td>0.17344</td>
+              <td>0.1643</td>
+              <td>0.07112</td>
+              <td>0.31268</td>
+              <td>2.14558</td>
+          </tr>
+          <tr id="LC156" class="js-file-line">
+            <td id="L156" class="blob-num js-line-number" data-line-number="156"></td>
+              <td>Togo</td>
+              <td>Sub-Saharan Africa</td>
+              <td>155</td>
+              <td>3.303</td>
+              <td>3.192</td>
+              <td>3.414</td>
+              <td>0.28123</td>
+              <td>0</td>
+              <td>0.24811</td>
+              <td>0.34678</td>
+              <td>0.11587</td>
+              <td>0.17517</td>
+              <td>2.1354</td>
+          </tr>
+          <tr id="LC157" class="js-file-line">
+            <td id="L157" class="blob-num js-line-number" data-line-number="157"></td>
+              <td>Syria</td>
+              <td>Middle East and Northern Africa</td>
+              <td>156</td>
+              <td>3.069</td>
+              <td>2.936</td>
+              <td>3.202</td>
+              <td>0.74719</td>
+              <td>0.14866</td>
+              <td>0.62994</td>
+              <td>0.06912</td>
+              <td>0.17233</td>
+              <td>0.48397</td>
+              <td>0.81789</td>
+          </tr>
+          <tr id="LC158" class="js-file-line">
+            <td id="L158" class="blob-num js-line-number" data-line-number="158"></td>
+              <td>Burundi</td>
+              <td>Sub-Saharan Africa</td>
+              <td>157</td>
+              <td>2.905</td>
+              <td>2.732</td>
+              <td>3.078</td>
+              <td>0.06831</td>
+              <td>0.23442</td>
+              <td>0.15747</td>
+              <td>0.0432</td>
+              <td>0.09419</td>
+              <td>0.2029</td>
+              <td>2.10404</td>
+          </tr>
+      </tbody>
+    </table>
+  </div>
+
+  </div>
+
+    </div>
+
+  
+
+
+  <details class="details-reset details-overlay details-overlay-dark" id="jumpto-line-details-dialog">
+    <summary data-hotkey="l" aria-label="Jump to line"></summary>
+    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast linejump" aria-label="Jump to line">
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-jump-to-line-form Box-body d-flex" action="" accept-charset="UTF-8" method="get">
+        <input class="form-control flex-auto mr-3 linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" aria-label="Jump to line" autofocus>
+        <button type="submit" class="btn" data-close-dialog>Go</button>
+</form>    </details-dialog>
+  </details>
+
+
+
+
+  </div>
+</div>
+
+    </main>
+  </div>
+
+  </div>
+
+          
+<div class="footer container-xl width-full p-responsive" role="contentinfo">
+    <div class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between flex-sm-items-center pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+      <a aria-label="Homepage" title="GitHub" class="footer-octicon d-none d-lg-block mr-lg-4" href="https://github.com">
+        <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+</a>
+      <ul class="list-style-none d-flex flex-wrap col-12 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
+        <li class="mr-3 mr-lg-0">&copy; 2020 GitHub, Inc.</li>
+          <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+          <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+            <li class="js-cookie-consent-preferences-link-container mr-3 mr-lg-0" hidden="hidden">
+  <button data-ga-click="Footer, go to cookie preferences, text:cookie preferences" class="btn-link js-cookie-consent-preferences-link" type="button">Cookie Preferences</button>
+</li>
+          <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to security, text:security" href="https://github.com/security">Security</a></li>
+          <li class="mr-3 mr-lg-0"><a href="https://githubstatus.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+          <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to help, text:help" href="https://docs.github.com">Help</a></li>
+          <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+          <li class="mr-3 mr-lg-0"><a href="https://github.com/pricing" data-ga-click="Footer, go to Pricing, text:Pricing">Pricing</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://docs.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://services.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+          <li class="mr-3 mr-lg-0"><a href="https://github.blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+          <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+      </ul>
+    </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+
+  
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg>
+    </button>
+    You can’t perform that action at this time.
+  </div>
+
+
+  <div class="js-stale-session-flash flash flash-warn flash-banner" hidden
+    >
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path></svg>
+    <span class="js-stale-session-flash-signed-in" hidden>You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="js-stale-session-flash-signed-out" hidden>You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+    <template id="site-details-dialog">
+  <details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark hx_rsm" open>
+    <summary role="button" aria-label="Close dialog"></summary>
+    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast hx_rsm-dialog hx_rsm-modal">
+      <button class="Box-btn-octicon m-0 btn-octicon position-absolute right-0 top-0" type="button" aria-label="Close dialog" data-close-dialog>
+        <svg class="octicon octicon-x" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg>
+      </button>
+      <div class="octocat-spinner my-6 js-details-dialog-spinner"></div>
+    </details-dialog>
+  </details>
+</template>
+
+    <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+      <div class="js-cookie-consent-banner" hidden>
+  <div class="hx_cookie-banner p-2 p-sm-3 p-md-4">
+    <div style="max-width: 1194px;" class="Box hx_cookie-banner-box box-shadow-medium mx-auto">
+    <div class="Box-body border-0 py-0 px-3 px-md-4">
+      <div class="js-main-cookie-banner hx_cookie-banner-main">
+          <div class="d-md-flex flex-items-center py-3">
+            <p class="f5 flex-1 mb-3 mb-md-0">
+              
+  We use <span class="text-bold">optional</span> third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+
+              <span class="btn-link js-cookie-consent-learn-more">Learn more</span>.
+            </p>
+            <div class="d-flex d-md-block flex-wrap flex-sm-nowrap">
+              <button class="btn btn-outline flex-1 mr-1 mx-sm-1 m-md-0 ml-md-2 js-cookie-consent-accept">Accept</button>
+              <button class="btn btn-outline flex-1 ml-1 m-md-0 ml-md-2 js-cookie-consent-reject">Reject</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="js-cookie-details hx_cookie-banner-details" hidden>
+          <div class="d-md-flex flex-items-center py-3">
+            <p class="f5 flex-1 mb-2 mb-md-0">
+              
+  We use <span class="text-bold">optional</span> third-party analytics cookies to understand how you use GitHub.com so we can build better products.
+
+              <br>
+              You can always update your selection by clicking <span class="text-bold">Cookie Preferences</span> at the bottom of the page.
+              For more information, see our <a href="https://docs.github.com/en/free-pro-team@latest/github/site-policy/github-privacy-statement">Privacy Statement</a>.
+            </p>
+          </div>
+
+          <div class="d-md-flex flex-items-center py-3 border-top">
+            <div class="f5 flex-1 mb-2 mb-md-0">
+              <h5 class="mb-1">Essential cookies</h5>
+              <p class="f6 mb-md-0">We use essential cookies to perform essential website functions, e.g. they're used to log you in. 
+                <a href="https://docs.github.com/en/github/site-policy/github-subprocessors-and-cookies">Learn more</a>
+              </p>
+            </div>
+            <div class="text-right">
+              <h5 class="text-blue">Always active</h5>
+            </div>
+          </div>
+
+          <div class="d-md-flex flex-items-center py-3 border-top">
+            <div class="f5 flex-1 mb-2 mb-md-0">
+              <h5 class="mb-1">Analytics cookies</h5>
+              <p class="f6 mb-md-0">We use analytics cookies to understand how you use our websites so we can make them better, e.g. they're used to gather information about the pages you visit and how many clicks you need to accomplish a task. 
+                <a href="https://docs.github.com/en/github/site-policy/github-subprocessors-and-cookies">Learn more</a>
+              </p>
+            </div>
+            <div class="text-right">
+              <div class="BtnGroup mt-1 mt-md-0 ml-2">
+                <button class="btn btn-outline BtnGroup-item js-accept-analytics-cookies" type="button">Accept</button>
+                <button class="btn btn-outline BtnGroup-item js-reject-analytics-cookies" type="button">Reject</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="text-right py-3 border-top">
+            <button class="btn btn-primary js-save-cookie-preferences" type="button" disabled>Save preferences</button>
+          </div>
+        </div>
+</div></div>  </div>
+</div>
+
+
+  </body>
+</html>
+
