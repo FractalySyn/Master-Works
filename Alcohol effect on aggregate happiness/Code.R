@@ -21,8 +21,8 @@ lapply(required_libs, load_pack); rm(required_libs)
 # Download and clean Data --------------------------------------------------------------------
 
 ### Download and Explore data
-gini_all = read_csv('https://raw.githubusercontent.com/FractalySyn/Alcohol_and_Happiness/main/Gini.csv', skip= 4) 
-hp_alc_2016 = read_csv('https://raw.githubusercontent.com/FractalySyn/Alcohol_and_Happiness/main/HappinessAlcoholConsumption.csv')
+gini_all = read_csv('https://raw.githubusercontent.com/FractalySyn/Master-Works/main/Alcohol%20effect%20on%20aggregate%20happiness/data/Gini_WB.csv', skip= 4) 
+hp_alc_2016 = read_csv('https://github.com/FractalySyn/Master-Works/raw/main/Alcohol%20effect%20on%20aggregate%20happiness/data/wh2016.csv')
 head(hp_alc_2016)
 
 
@@ -94,12 +94,14 @@ data = data %>% mutate(Rich = WE + NAm + ANZ,
                        Poor = SSA + SA)
 
 'Keeping Rich and Poor will suffice as they are excluding'
-data = data %>% select(Country, HS, AC, GDP, HDI, GI, Rich, Poor)
+merged = data %>% select(Country, HS, AC, GDP, HDI, GI, Rich, Poor)
+
+write.csv(merged, 'data/merged.csv', row.names = F)
 
 
 # Correlations ------------------------------------------------------------
 
-continuous = data %>% select(HS, AC, GDP, HDI, GI)
+continuous = merged %>% select(HS, AC, GDP, HDI, GI)
 corrplot(cor(continuous), type = 'upper', order = 'alphabet', 
          method = 'circle', tl.pos = "d", tl.col = 9)
 corrplot(cor(continuous), add = TRUE, type = "lower", 
@@ -291,20 +293,20 @@ econometric_analysis(Boston, 'medv', 'lstat')
 
 ### Visualize relationships
 'Alcohol, increasing relationship'
-data %>% ggplot(aes(AC, HS)) + geom_point() + geom_smooth(se = F, method = 'lm')
+merged %>% ggplot(aes(AC, HS)) + geom_point() + geom_smooth(se = F, method = 'lm')
 'GDP, strong positive correlation, note that it is used for the Hap score computation'
-data %>% ggplot(aes(log(GDP), HS)) + geom_point() + geom_smooth(se = F, method = 'lm')
+merged %>% ggplot(aes(log(GDP), HS)) + geom_point() + geom_smooth(se = F, method = 'lm')
 'HDI, strong positive correlation'
-data %>% ggplot(aes(HDI, HS)) + geom_point() + geom_smooth(se = F, method = 'lm')
+merged %>% ggplot(aes(HDI, HS)) + geom_point() + geom_smooth(se = F, method = 'lm')
 'Gini'
-data %>% ggplot(aes(GI, HS)) + geom_point() + geom_smooth(se = F, method = 'lm')
+merged %>% ggplot(aes(GI, HS)) + geom_point() + geom_smooth(se = F, method = 'lm')
 
-data = data %>% mutate(lGDP = log(GDP)) %>% select(-GDP)
+merged = merged %>% mutate(lGDP = log(GDP)) %>% select(-GDP)
 
 ### Model
 'Specification : HS = a + b1.AC + b2.ln(GDP) + b3.HDI + b4.GI + DummyRegions'
-econometric_analysis(data, 'HS', c('AC', 'lGDP', 'HDI', 'GI', 'Rich', 'Poor'), 'BP')
-lm(HS~., data = data[, -1]) %>% coeftest(x=., vcov = vcovHC, type = 'HC1')
+econometric_analysis(merged, 'HS', c('AC', 'lGDP', 'HDI', 'GI', 'Rich', 'Poor'), 'BP')
+lm(HS~., data = merged[, -1]) %>% coeftest(x=., vcov = vcovHC, type = 'HC1')
 
 
 
