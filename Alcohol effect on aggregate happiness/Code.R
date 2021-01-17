@@ -9,7 +9,7 @@
 
 # Load packages -----------------------------------------------------------
 rm(list = ls())
-required_libs = c('dplyr', 'ggplot2', 'corrplot', 'knitr', 'lmtest', 'readr', 'sandwich')
+required_libs = c('dplyr', 'ggplot2', 'corrplot', 'knitr', 'lmtest', 'readr', 'sandwich', 'ggthemes')
 load_pack = function(lib = required_libs)
 {
    if(!require(lib, character.only = TRUE)) install.packages(lib)
@@ -51,7 +51,7 @@ gini = gini_all %>% dplyr::select('Country Name', 'GI') %>%
 
 ### Clean HP ALC data
 hp_alc = hp_alc_2016 %>% 
-   mutate(AC = Beer_PerCapita + Wine_PerCapita*2.5 + Spirit_PerCapita*8) %>%
+   mutate(AC = Beer_PerCapita*4 + Wine_PerCapita + Spirit_PerCapita) %>%
    select(Country, Region, HappinessScore, HDI, GDP_PerCapita, AC)
 # Transform regions to binary variables
 regions = hp_alc_2016 %>% dplyr::select(Region) %>% unique() %>%
@@ -99,14 +99,6 @@ merged = data %>% select(Country, HS, AC, GDP, HDI, GI, Rich, Poor)
 write.csv(merged, 'data/merged.csv', row.names = F)
 
 
-# Correlations ------------------------------------------------------------
-
-continuous = merged %>% select(HS, AC, GDP, HDI, GI)
-corrplot(cor(continuous), type = 'upper', order = 'alphabet', 
-         method = 'circle', tl.pos = "d", tl.col = 9)
-corrplot(cor(continuous), add = TRUE, type = "lower", 
-         method = "number", order = "alphabet", diag = F, tl.pos = "n", cl.pos = "n")
-rm(continuous, mean_gdp)
 
 
 # Functions ---------------------------------------------------------------
@@ -292,28 +284,64 @@ econometric_analysis(Boston, 'medv', 'lstat')
 # Econometric Analysis ----------------------------------------------------
 
 ### Visualize relationships
-'Alcohol, increasing relationship'
-merged %>% ggplot(aes(AC, HS)) + geom_point() + geom_smooth(se = F, method = 'lm')
+'Alcohol, increasing relationship, linear in log(AC)'
+merged %>% ggplot(aes(log(AC), log(HS))) + geom_point() + geom_smooth(se = F, method = 'lm') +
+      theme_economist() + ggtitle('Happiness ~ Alcohol Consumption') + 
+      theme(plot.title = element_text(hjust = 0.5), axis.title.x = element_text(vjust = 0),
+            axis.title.y = element_text(vjust = 2))
 'GDP, strong positive correlation, note that it is used for the Hap score computation'
-merged %>% ggplot(aes(log(GDP), HS)) + geom_point() + geom_smooth(se = F, method = 'lm')
+merged %>% ggplot(aes(log(GDP), log(HS))) + geom_point() + geom_smooth(se = F, method = 'lm') +
+   theme_economist() + ggtitle('Happiness ~ GDP per capita') + 
+   theme(plot.title = element_text(hjust = 0.5), axis.title.x = element_text(vjust = 0),
+         axis.title.y = element_text(vjust = 2))
 'HDI, strong positive correlation'
-merged %>% ggplot(aes(HDI, HS)) + geom_point() + geom_smooth(se = F, method = 'lm')
+merged %>% ggplot(aes(log(HDI), log(HS))) + geom_point() + geom_smooth(se = F, method = 'lm') +
+   theme_economist() + ggtitle('Happiness ~ HDI') + 
+   theme(plot.title = element_text(hjust = 0.5), axis.title.x = element_text(vjust = 0),
+         axis.title.y = element_text(vjust = 2))
 'Gini'
-merged %>% ggplot(aes(GI, HS)) + geom_point() + geom_smooth(se = F, method = 'lm')
+merged %>% ggplot(aes(log(GI), log(HS))) + geom_point() + geom_smooth(se = F, method = 'lm')+
+   theme_economist() + ggtitle('Happiness ~ Gini') + 
+   theme(plot.title = element_text(hjust = 0.5), axis.title.x = element_text(vjust = 0),
+         axis.title.y = element_text(vjust = 2))
 
-merged = merged %>% mutate(lGDP = log(GDP)) %>% select(-GDP)
+merged = merged %>% mutate(lGDP = log(GDP), lAC = log(AC), HS = log(HS),
+                           lHDI = log(HDI), lGI = log(GI), AC2 = AC^2)
 
 ### Model
-'Specification : HS = a + b1.AC + b2.ln(GDP) + b3.HDI + b4.GI + DummyRegions'
-econometric_analysis(merged, 'HS', c('AC', 'lGDP', 'HDI', 'GI', 'Rich', 'Poor'), 'BP')
-lm(HS~., data = merged[, -1]) %>% coeftest(x=., vcov = vcovHC, type = 'HC1')
+'Specification : HS = a + b1.ln(AC)'
+econometric_analysis(merged, 'HS', c('lAC'), 'BP')
+
+
+'Specification : HS = a + b1.ln(GDP)'
+econometric_analysis(merged, 'HS', c('lGDP'), 'BP')
+## Le PIB en log a un R² de 70 contre 74 avec toutes les variables et 35 pour la conso d'alcool seule
+## Le PIB est corrélé avec tout le reste et c'est également la variable la plus corrélée avec le bonheur
+## Donc il capte toute la regression et les autres variables ne sont plus significatives
+'Specification : HS = a + b1.ln(AC) + b2.ln(GDP) + b3.HDI + b4.GI + DummyRegions'
+econometric_analysis(merged, 'HS', c('lAC', 'lGDP', 'lHDI', 'lGI', 'Rich', 'Poor'), 'BP')
+
+econometric_analysis(merged, 'HS', c('AC', 'AC2'), 'BP')
+lm(HS~AC+AC2, data = merged) %>% coeftest(vcov. = vcovHC)
+
+# Correlations ------------------------------------------------------------
+
+continuous = merged %>% select(HS, AC, GDP, HDI, GI)
+corrplot(cor(continuous), type = 'upper', order = 'alphabet', 
+         method = 'circle', tl.pos = "d", tl.col = 9)
+corrplot(cor(continuous), add = TRUE, type = "lower", 
+         method = "number", order = "alphabet", diag = F, tl.pos = "n", cl.pos = "n")
+rm(continuous, mean_gdp)
 
 
 
+# Endogeneity -------------------------------------------------------------
 
+res = lm(HS~lAC+lGDP+lHDI+lGI+Rich+Poor, data = merged)$residuals
+temp = data.frame(res, merged[, 9:12])
 
-
-
-
-
+corrplot(cor(temp), type = 'upper', order = 'alphabet', 
+         method = 'circle', tl.pos = "d", tl.col = 9)
+corrplot(cor(temp), add = TRUE, type = "lower", 
+         method = "number", order = "alphabet", diag = F, tl.pos = "n", cl.pos = "n")
 
